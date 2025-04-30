@@ -1,0 +1,395 @@
+data:
+  format: zarr
+  frequency: 6h
+  timestep: 6h
+  forcing:
+  - lsm
+  - z_sfc
+  - insolation
+  - cos_julian_day
+  - cos_local_time
+  - cos_longitude
+  - cos_latitude
+  - sin_julian_day
+  - sin_local_time
+  - sin_longitude
+  - sin_latitude
+  diagnostic:
+  - tp
+  remapped: null
+  normalizer:
+    default: mean-std
+    std:
+    - tp
+    min-max: null
+    max: null
+    none:
+    - lsm
+    - z_sfc
+    - insolation
+    - cos_julian_day
+    - cos_local_time
+    - cos_longitude
+    - cos_latitude
+    - sin_julian_day
+    - sin_local_time
+    - sin_longitude
+    - sin_latitude
+  imputer:
+    default: none
+  remapper:
+    default: none
+  processors:
+    normalizer:
+      _target_: anemoi.models.preprocessing.normalizer.InputNormalizer
+      _convert_: all
+      config: ${data.normalizer}
+  num_features: null
+  resolution: ''
+  prognostic: null
+dataloader:
+  prefetch_factor: 2
+  pin_memory: true
+  read_group_size: ${hardware.num_gpus_per_model}
+  num_workers:
+    training: 1
+    validation: 1
+    test: 1
+    predict: 1
+  batch_size:
+    training: 1
+    validation: 1
+    test: 1
+    predict: 1
+  limit_batches:
+    training: null
+    validation: null
+    test: 20
+    predict: 20
+  grid_indices:
+    _target_: anemoi.training.data.grid_indices.FullGrid
+    nodes_name: ${graph.data}
+  dataset:
+    cutout:
+    - dataset: ${hardware.paths.data}/${hardware.files.dataset}
+      thinning: 1
+    - dataset: ${hardware.paths.data}/${hardware.files.forcing_dataset}
+    adjust: all
+    min_distance_km: 6
+  training:
+    dataset: ${dataloader.dataset}
+    start: '1979-01-01'
+    end: '1979-01-02'
+    frequency: ${data.frequency}
+    drop:
+    - w_1000
+    - w_925
+    - w_850
+    - w_800
+    - w_700
+    - w_600
+    - w_500
+    - w_400
+    - w_300
+    - w_250
+    - w_200
+    - w_150
+    - w_100
+    - w_50
+  validation_rollout: 1
+  validation:
+    dataset: ${dataloader.dataset}
+    start: '1979-01-03'
+    end: '1979-01-04'
+    frequency: ${data.frequency}
+    drop:
+    - w_1000
+    - w_925
+    - w_850
+    - w_800
+    - w_700
+    - w_600
+    - w_500
+    - w_400
+    - w_300
+    - w_250
+    - w_200
+    - w_150
+    - w_100
+    - w_50
+  test:
+    dataset: ${dataloader.dataset}
+    start: 2022
+    end: null
+    frequency: ${data.frequency}
+diagnostics:
+  plot:
+    callbacks: []
+  callbacks: {}
+  benchmark_profiler:
+    memory:
+      enabled: true
+      steps: 5
+      warmup: 2
+      extra_plots: false
+      trace_rank0_only: false
+    time:
+      enabled: true
+      verbose: false
+    speed:
+      enabled: true
+    system:
+      enabled: true
+    model_summary:
+      enabled: true
+    snapshot:
+      enabled: true
+      steps: 4
+      warmup: 0
+  debug:
+    anomaly_detection: false
+  profiler: false
+  enable_checkpointing: true
+  checkpoint:
+    every_n_minutes:
+      save_frequency: null
+      num_models_saved: 0
+    every_n_epochs:
+      save_frequency: 1
+      num_models_saved: -1
+    every_n_train_steps:
+      save_frequency: null
+      num_models_saved: 0
+  log:
+    wandb:
+      enabled: false
+      offline: false
+      log_model: false
+      project: Anemoi
+      entity: ???
+      gradients: false
+      parameters: false
+    tensorboard:
+      enabled: false
+    mlflow:
+      enabled: false
+      offline: false
+      authentication: false
+      log_model: true
+      tracking_uri: ???
+      experiment_name: anemoi-debug
+      project_name: Anemoi
+      system: true
+      terminal: true
+      run_name: null
+      on_resume_create_child: true
+      expand_hyperparams:
+      - config
+    interval: 100
+  enable_progress_bar: true
+  print_memory_summary: true
+  defaults:
+  - plot: none
+  - callbacks: pretraining
+  - benchmark_profiler: simple
+hardware:
+  paths:
+    data: /work/hdd/bduu/jbanomedina/regional-ai/data/zarrs/
+    grids: /work/nvme/bduu/jbanomedina/regional-ai/graphs/STRETCHED-6km/
+    output: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_
+    logs:
+      base: ${hardware.paths.output}logs/
+      wandb: ${hardware.paths.logs.base}
+      mlflow: ${hardware.paths.logs.base}mlflow/
+      tensorboard: ${hardware.paths.logs.base}tensorboard/
+    checkpoints: ${hardware.paths.output}checkpoint/
+    plots: ${hardware.paths.output}plots/
+    profiler: ${hardware.paths.output}profiler/
+    graph: ${hardware.paths.output}graphs/
+  files:
+    dataset: test-1979-01-cw3e-6km-allvars.zarr
+    graph: STRETCHED-6km-10x7-12x3.pt
+    checkpoint:
+      every_n_epochs: stage-B1-by_epoch-epoch_{epoch:03d}-step_{step:06d}
+      every_n_train_steps: stage-B1-by_step-epoch_{epoch:03d}-step_{step:06d}
+      every_n_minutes: stage-B1-by_time-epoch_{epoch:03d}-step_{step:06d}
+    warm_start: null
+    forcing_dataset: test-1979-01-era5-31km-allvars.zarr
+  accelerator: auto
+  num_gpus_per_node: 4
+  num_nodes: 1
+  num_gpus_per_model: 4
+graph:
+  overwrite: false
+  data: data
+  hidden: hidden
+  nodes:
+    data:
+      node_builder:
+        _target_: anemoi.graphs.nodes.ZarrDatasetNodes
+        dataset: ${dataloader.training.dataset}
+      attributes: ${graph.attributes.nodes}
+    hidden:
+      node_builder:
+        _target_: anemoi.graphs.nodes.StretchedTriNodes
+        lam_resolution: 10
+        global_resolution: 7
+        reference_node_name: ${graph.data}
+        mask_attr_name: cutout
+        margin_radius_km: 11
+  edges:
+  - source_name: ${graph.data}
+    target_name: ${graph.hidden}
+    edge_builders:
+    - _target_: anemoi.graphs.edges.KNNEdges
+      num_nearest_neighbours: 12
+    attributes: ${graph.attributes.edges}
+  - source_name: ${graph.hidden}
+    target_name: ${graph.hidden}
+    edge_builders:
+    - _target_: anemoi.graphs.edges.MultiScaleEdges
+      x_hops: 1
+    attributes: ${graph.attributes.edges}
+  - source_name: ${graph.hidden}
+    target_name: ${graph.data}
+    edge_builders:
+    - _target_: anemoi.graphs.edges.KNNEdges
+      num_nearest_neighbours: 3
+    attributes: ${graph.attributes.edges}
+  attributes:
+    nodes:
+      area_weight:
+        _target_: anemoi.graphs.nodes.attributes.SphericalAreaWeights
+        norm: unit-max
+      cutout:
+        _target_: anemoi.graphs.nodes.attributes.CutOutMask
+    edges:
+      edge_length:
+        _target_: anemoi.graphs.edges.attributes.EdgeLength
+        norm: unit-max
+      edge_dirs:
+        _target_: anemoi.graphs.edges.attributes.EdgeDirection
+        norm: unit-std
+model:
+  activation: GELU
+  num_channels: 512
+  model:
+    _target_: anemoi.models.models.encoder_processor_decoder.AnemoiModelEncProcDec
+  processor:
+    _target_: anemoi.models.layers.processor.GraphTransformerProcessor
+    _convert_: all
+    activation: ${model.activation}
+    trainable_size: ${model.trainable_parameters.hidden2hidden}
+    sub_graph_edge_attributes: ${model.attributes.edges}
+    num_layers: 16
+    num_chunks: 2
+    mlp_hidden_ratio: 4
+    num_heads: 16
+    dropout_p: 0.0
+  encoder:
+    _target_: anemoi.models.layers.mapper.GraphTransformerForwardMapper
+    _convert_: all
+    trainable_size: ${model.trainable_parameters.data2hidden}
+    sub_graph_edge_attributes: ${model.attributes.edges}
+    activation: ${model.activation}
+    num_chunks: 1
+    mlp_hidden_ratio: 4
+    num_heads: 16
+  decoder:
+    _target_: anemoi.models.layers.mapper.GraphTransformerBackwardMapper
+    _convert_: all
+    trainable_size: ${model.trainable_parameters.hidden2data}
+    sub_graph_edge_attributes: ${model.attributes.edges}
+    activation: ${model.activation}
+    num_chunks: 1
+    mlp_hidden_ratio: 4
+    num_heads: 16
+  trainable_parameters:
+    data: 8
+    hidden: 8
+    data2hidden: 8
+    hidden2data: 8
+    hidden2hidden: 8
+  attributes:
+    edges:
+    - edge_length
+    - edge_dirs
+    nodes: []
+  bounding:
+  - _target_: anemoi.models.layers.bounding.ReluBounding
+    variables:
+    - tp
+training:
+  run_id: null
+  fork_run_id: null
+  load_weights_only: null
+  transfer_learning: null
+  deterministic: false
+  precision: 16-mixed
+  multistep_input: 2
+  accum_grad_batches: 1
+  num_sanity_val_steps: 0
+  gradient_clip:
+    val: 32.0
+    algorithm: value
+  swa:
+    enabled: false
+    lr: 0.0001
+  zero_optimizer: false
+  training_loss:
+    _target_: anemoi.training.losses.mse.WeightedMSELoss
+    scalars:
+    - variable
+    - loss_weights_mask
+    ignore_nans: false
+  loss_gradient_scaling: false
+  validation_metrics:
+  - _target_: anemoi.training.losses.mse.WeightedMSELoss
+    scalars: []
+    ignore_nans: true
+  scale_validation_metrics:
+    scalars_to_apply:
+    - variable
+    metrics:
+    - all
+  rollout:
+    start: 12
+    epoch_increment: 0
+    max: 12
+  max_epochs: 500
+  max_steps: null
+  lr:
+    rate: 0.0005
+    iterations: 10
+    min: 3.0e-07
+    warmup_t: 1000
+  variable_loss_scaling:
+    default: 1
+    pl:
+      q: 0.6
+      t: 6
+      u: 0.8
+      v: 0.5
+      z: 12
+    sfc:
+      sp: 10
+      10u: 0.1
+      10v: 0.1
+      2d: 0.5
+      tp: 0.025
+  pressure_level_scaler:
+    _target_: anemoi.training.data.scaling.ReluPressureLevelScaler
+    minimum: 0.2
+    slope: 0.001
+  node_loss_weights:
+    _target_: anemoi.training.losses.nodeweights.GraphNodeAttribute
+    target_nodes: ${graph.data}
+    node_attribute: area_weight
+  loss_scaling:
+    spatial:
+      _target_: anemoi.training.data.scaling.ReweightedGraphAttribute
+      target_nodes: ${graph.data}
+      scaled_attribute: area_weight
+      cutout_weight_frac_of_global: 0.25
+  metrics:
+  - 2t

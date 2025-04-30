@@ -1,0 +1,42 @@
+[2025-02-28 11:05:31,711][anemoi.training.train.train][INFO] - Run id: e5687df5-b778-4b79-877f-0dc36cdd55a0
+[2025-02-28 11:05:31,712][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/e5687df5-b778-4b79-877f-0dc36cdd55a0
+[2025-02-28 11:05:31,713][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/e5687df5-b778-4b79-877f-0dc36cdd55a0
+[2025-02-28 11:05:31,713][anemoi.training.train.train][INFO] - Run id: c37fd753-9569-49e4-9118-f7b4bef2a785
+[2025-02-28 11:05:31,715][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/c37fd753-9569-49e4-9118-f7b4bef2a785
+[2025-02-28 11:05:31,715][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/c37fd753-9569-49e4-9118-f7b4bef2a785
+[2025-02-28 11:05:44,583][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from /work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr.
+[2025-02-28 11:05:44,583][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from /work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr.
+[2025-02-28 11:05:52,549][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-28 11:05:52,591][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 12 nearest neighbours) between data and hidden.
+[2025-02-28 11:05:59,146][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-28 11:05:59,300][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-28 11:06:04,429][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-28 11:06:04,507][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-28 11:06:04,507][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-28 11:06:04,507][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-28 11:06:04,507][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-28 11:06:04,638][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-28 11:06:04,641][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-28 11:06:04,641][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-28 11:06:04,642][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-28 11:06:04,642][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-28 11:06:04,796][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-12x3.pt.
+[2025-02-28 11:06:04,849][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-8x3.pt.
+[2025-02-28 11:06:04,960][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 11:06:04,973][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-02-28 11:06:04,985][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 11:06:04,991][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-02-28 11:06:11,321][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,321][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,324][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,325][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,329][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,330][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,331][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 11:06:11,332][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 11:06:11,334][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,336][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,338][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,339][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 11:06:11,340][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].
+[2025-02-28 11:06:11,342][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].

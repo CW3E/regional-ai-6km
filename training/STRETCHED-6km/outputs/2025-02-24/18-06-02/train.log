@@ -1,0 +1,155 @@
+[2025-02-24 18:06:02,456][anemoi.training.train.train][INFO] - Run id: 3cd37c25-fa94-4e4e-b652-7003b94cd6e7
+[2025-02-24 18:06:02,457][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3cd37c25-fa94-4e4e-b652-7003b94cd6e7
+[2025-02-24 18:06:02,457][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/3cd37c25-fa94-4e4e-b652-7003b94cd6e7
+[2025-02-24 18:06:13,231][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-24 18:12:36,308][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-24 18:18:38,363][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-24 18:18:38,423][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 1 nearest neighbours) between data and hidden.
+[2025-02-24 18:18:39,345][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 1 nearest neighbours) between hidden and data.
+[2025-02-24 18:18:41,731][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-24 18:18:41,731][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-24 18:18:41,732][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-24 18:18:41,732][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-24 18:18:41,732][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-24 18:18:41,732][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-24 18:18:42,211][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km.pt.
+[2025-02-24 18:24:42,965][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-24 18:24:42,975][anemoi.training.train.train][INFO] - Number of data variables: 106
+[2025-02-24 18:24:43,163][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-02-24 18:24:43,389][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-02-24 18:24:43,389][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-02-24 18:24:43,389][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-02-24 18:24:43,416][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 515097
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-24 18:25:04,365][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-24 18:25:04,630][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-24 18:25:04,631][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-24 18:25:04,932][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-24 18:25:04,937][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-24 18:25:05,516][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+[2025-02-24 18:25:05,584][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-02-24 18:25:12,113][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-02-24 18:25:12,429][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 515097
+[2025-02-24 18:25:12,445][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 41.9 M | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+41.9 M    Trainable params
+0         Non-trainable params
+41.9 M    Total params
+167.521   Total estimated model params size (MB)
+150       Modules in train mode
+0         Modules in eval mode
+[2025-02-24 18:25:12,445][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-24 18:31:30,755][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-24 18:32:07,702][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-24 18:32:43,819][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3cd37c25-fa94-4e4e-b652-7003b94cd6e7/inference-stage-x-by_epoch-epoch_000-step_000006.ckpt
+[2025-02-24 18:32:43,820][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/ai-models.json
+[2025-02-24 18:32:43,823][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:32:43,844][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:32:43,947][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:32:43,948][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-24 18:32:43,948][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:32:43,952][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:32:43,977][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:32:44,018][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:32:44,020][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:32:47,723][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3cd37c25-fa94-4e4e-b652-7003b94cd6e7/inference-last.ckpt
+[2025-02-24 18:32:47,723][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-24 18:32:47,725][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:32:47,841][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:32:47,924][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-last/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:32:47,925][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-last/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-24 18:32:47,925][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-last/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:32:47,929][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-last/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:32:47,965][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-last/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:32:48,029][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-last/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:32:48,032][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-last/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:32:50,485][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-24 18:33:39,084][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-24 18:34:11,212][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3cd37c25-fa94-4e4e-b652-7003b94cd6e7/inference-stage-x-by_epoch-epoch_001-step_000012.ckpt
+[2025-02-24 18:34:11,212][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/ai-models.json
+[2025-02-24 18:34:11,214][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:34:11,275][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:34:11,342][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:34:11,343][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-24 18:34:11,344][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:34:11,346][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:34:11,382][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:34:11,426][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:34:11,428][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:34:14,626][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3cd37c25-fa94-4e4e-b652-7003b94cd6e7/inference-last.ckpt
+[2025-02-24 18:34:14,626][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-24 18:34:14,628][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:34:14,708][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-24 18:34:14,819][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-last/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:34:14,820][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-last/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-24 18:34:14,820][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-last/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:34:14,823][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-last/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-24 18:34:14,863][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-last/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-24 18:34:14,928][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-last/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:34:14,931][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-last/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-24 18:34:17,122][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=2` reached.
+[2025-02-24 18:34:18,695][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  72413 MiB |   7636 GiB |   7636 GiB |
+|       from large pool |      0 B   |  72321 MiB |   7632 GiB |   7632 GiB |
+|       from small pool |   1536 B   |    144 MiB |      4 GiB |      4 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  72413 MiB |   7636 GiB |   7636 GiB |
+|       from large pool |      0 B   |  72321 MiB |   7632 GiB |   7632 GiB |
+|       from small pool |   2048 B   |    144 MiB |      4 GiB |      4 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  72403 MiB |   7635 GiB |   7635 GiB |
+|       from large pool |      0 B   |  72311 MiB |   7631 GiB |   7631 GiB |
+|       from small pool |     13 B   |    144 MiB |      4 GiB |      4 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   6144 KiB |  86054 MiB |  86068 MiB |  86062 MiB |
+|       from large pool |      0 KiB |  85906 MiB |  85920 MiB |  85920 MiB |
+|       from small pool |   6144 KiB |    148 MiB |    148 MiB |    142 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   6142 KiB |  14495 MiB |   2318 GiB |   2318 GiB |
+|       from large pool |      0 KiB |  14491 MiB |   2313 GiB |   2313 GiB |
+|       from small pool |   6142 KiB |     16 MiB |      4 GiB |      4 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |     723    |   29206    |   29203    |
+|       from large pool |       0    |      79    |    7199    |    7199    |
+|       from small pool |       3    |     661    |   22007    |   22004    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |     723    |   29206    |   29202    |
+|       from large pool |       0    |      79    |    7199    |    7199    |
+|       from small pool |       4    |     661    |   22007    |   22003    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       3    |     111    |     112    |     109    |
+|       from large pool |       0    |      37    |      38    |      38    |
+|       from small pool |       3    |      74    |      74    |      71    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       6    |      49    |   14336    |   14330    |
+|       from large pool |       0    |      21    |    3693    |    3693    |
+|       from small pool |       6    |      43    |   10643    |   10637    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+

@@ -1,0 +1,17 @@
+[2025-02-27 18:29:51,791][anemoi.training.train.train][INFO] - Run id: 5bc6c815-287c-4665-9e3d-280f7ead2e37
+[2025-02-27 18:29:51,792][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/5bc6c815-287c-4665-9e3d-280f7ead2e37
+[2025-02-27 18:29:51,792][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/5bc6c815-287c-4665-9e3d-280f7ead2e37
+[2025-02-27 18:30:03,845][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 18:36:27,120][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 18:42:22,301][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 18:42:47,020][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 18:45:27,831][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 18:45:58,478][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 18:45:58,479][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 18:45:58,479][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 18:45:58,480][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 18:45:58,480][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 18:45:58,483][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 18:45:59,019][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-8x8-8x3.pt.
+[2025-02-27 18:51:57,996][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 18:51:58,005][anemoi.training.train.train][INFO] - Number of data variables: 77

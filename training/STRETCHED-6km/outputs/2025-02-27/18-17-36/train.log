@@ -1,0 +1,232 @@
+[2025-02-27 18:17:36,599][anemoi.training.train.train][INFO] - Run id: ccbd65db-8d9b-446d-a028-eb1560df6fcf
+[2025-02-27 18:17:36,599][anemoi.training.train.train][INFO] - Run id: 9a2b0901-5f27-428f-8ae0-7fe8023992f1
+[2025-02-27 18:17:36,599][anemoi.training.train.train][INFO] - Run id: 2ce81cc8-de8f-49ad-a4e4-4c3b5a380a36
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/ccbd65db-8d9b-446d-a028-eb1560df6fcf
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/9a2b0901-5f27-428f-8ae0-7fe8023992f1
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/ccbd65db-8d9b-446d-a028-eb1560df6fcf
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/9a2b0901-5f27-428f-8ae0-7fe8023992f1
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/2ce81cc8-de8f-49ad-a4e4-4c3b5a380a36
+[2025-02-27 18:17:36,600][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/2ce81cc8-de8f-49ad-a4e4-4c3b5a380a36
+[2025-02-27 18:17:36,602][anemoi.training.train.train][INFO] - Run id: 280e897f-7c3d-47ed-91ae-c7d5dcba53c6
+[2025-02-27 18:17:36,602][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6
+[2025-02-27 18:17:36,603][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/280e897f-7c3d-47ed-91ae-c7d5dcba53c6
+[2025-02-27 18:17:36,685][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-6x6-8x3.pt
+[2025-02-27 18:17:36,685][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-6x6-8x3.pt
+[2025-02-27 18:17:36,685][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-6x6-8x3.pt
+[2025-02-27 18:17:36,685][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-6x6-8x3.pt
+[2025-02-27 18:23:26,799][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 18:23:26,879][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-27 18:23:26,999][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 18:23:27,003][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-27 18:23:27,902][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 533057
+[2025-02-27 18:23:27,902][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 533057
+[2025-02-27 18:23:27,971][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 18:23:27,975][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-27 18:23:28,377][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 533057
+[2025-02-27 18:23:31,135][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 18:23:31,143][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-27 18:23:31,535][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-02-27 18:23:31,703][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-02-27 18:23:31,703][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-02-27 18:23:31,704][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-02-27 18:23:31,709][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 533057
+[2025-02-27 18:23:41,727][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-27 18:23:41,727][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-27 18:23:41,727][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-27 18:23:41,728][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-27 18:23:41,729][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-27 18:23:41,733][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-27 18:23:41,734][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-27 18:23:41,735][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-27 18:23:41,735][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-27 18:23:42,123][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-27 18:23:42,123][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-27 18:23:42,123][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-27 18:23:42,124][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-27 18:23:42,124][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-27 18:23:42,124][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-27 18:23:42,124][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-27 18:23:42,125][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-27 18:23:56,866][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-27 18:23:56,867][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-27 18:23:56,867][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-27 18:23:56,867][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-27 18:23:56,871][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-27 18:23:56,871][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-27 18:23:56,872][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-27 18:23:56,871][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-27 18:24:03,391][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[2025-02-27 18:24:04,140][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+[2025-02-27 18:24:04,141][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[2025-02-27 18:24:04,143][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+[2025-02-27 18:24:04,156][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-02-27 18:24:11,599][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-27 18:24:11,599][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-27 18:24:11,599][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-27 18:24:11,599][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-27 18:24:11,987][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 533057
+[2025-02-27 18:24:11,987][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 533057
+[2025-02-27 18:24:11,987][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 533057
+[2025-02-27 18:24:11,987][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 533057
+[2025-02-27 18:24:11,999][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 309 M  | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+309 M     Trainable params
+0         Non-trainable params
+309 M     Total params
+1,239.959 Total estimated model params size (MB)
+305       Modules in train mode
+0         Modules in eval mode
+[2025-02-27 18:24:12,003][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-27 18:24:12,003][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-27 18:24:12,003][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-27 18:24:12,003][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-27 18:30:31,895][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:30:31,895][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:30:31,895][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:30:31,896][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:06,924][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:06,930][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:06,944][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:07,052][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:26,215][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-stage-x-by_epoch-epoch_000-step_000003.ckpt
+[2025-02-27 18:31:26,217][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/ai-models.json
+[2025-02-27 18:31:26,219][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:31:26,253][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:31:26,320][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:31:26,321][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:31:26,322][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:31:26,332][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:31:26,388][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:31:26,389][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:31:26,392][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-stage-x-by_epoch-epoch_000-step_000003/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:31:36,555][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-last.ckpt
+[2025-02-27 18:31:36,556][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-27 18:31:36,558][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:31:36,575][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:31:36,678][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-last/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:31:36,679][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-last/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:31:36,680][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-last/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:31:36,723][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-last/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:31:36,740][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-last/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:31:36,741][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-last/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:31:36,744][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-last/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:31:43,951][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:43,952][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:43,952][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:31:43,952][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:32:24,792][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:32:24,843][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:32:24,883][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:32:24,891][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:32:43,224][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-stage-x-by_epoch-epoch_001-step_000006.ckpt
+[2025-02-27 18:32:43,224][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/ai-models.json
+[2025-02-27 18:32:43,226][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:32:43,249][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:32:43,289][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:32:43,290][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:32:43,291][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:32:43,333][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:32:43,355][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:32:43,356][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:32:43,359][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-stage-x-by_epoch-epoch_001-step_000006/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:32:53,664][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-last.ckpt
+[2025-02-27 18:32:53,665][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-27 18:32:53,667][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:32:53,733][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:32:53,753][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-last/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:32:53,755][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-last/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:32:53,756][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-last/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:32:53,759][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-last/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:32:53,808][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-last/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:32:53,809][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-last/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:32:53,811][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-last/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:33:00,820][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:00,820][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:00,821][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:00,822][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:38,034][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:38,063][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:38,107][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:38,144][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:33:56,529][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-stage-x-by_epoch-epoch_002-step_000009.ckpt
+[2025-02-27 18:33:56,529][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/ai-models.json
+[2025-02-27 18:33:56,532][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:33:56,545][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:33:56,562][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:33:56,563][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:33:56,564][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:33:56,586][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:33:56,595][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:33:56,596][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:33:56,599][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-stage-x-by_epoch-epoch_002-step_000009/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:34:06,495][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/280e897f-7c3d-47ed-91ae-c7d5dcba53c6/inference-last.ckpt
+[2025-02-27 18:34:06,495][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-27 18:34:06,497][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:34:06,522][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(1817128,), dtype=float64)
+[2025-02-27 18:34:06,533][anemoi.utils.checkpoints][INFO] - Saving supporting array `lam_0/cutout_mask` to inference-last/anemoi-metadata/lam_0/cutout_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:34:06,535][anemoi.utils.checkpoints][INFO] - Saving supporting array `global/cutout_mask` to inference-last/anemoi-metadata/global/cutout_mask.numpy (shape=(542080,), dtype=bool)
+[2025-02-27 18:34:06,536][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/latitudes` to inference-last/anemoi-metadata/source0/latitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:34:06,540][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/longitudes` to inference-last/anemoi-metadata/source0/longitudes.numpy (shape=(1323840,), dtype=float32)
+[2025-02-27 18:34:06,578][anemoi.utils.checkpoints][INFO] - Saving supporting array `source0/thinning_mask` to inference-last/anemoi-metadata/source0/thinning_mask.numpy (shape=(1323840,), dtype=bool)
+[2025-02-27 18:34:06,579][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/latitudes` to inference-last/anemoi-metadata/source1/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:34:06,581][anemoi.utils.checkpoints][INFO] - Saving supporting array `source1/longitudes` to inference-last/anemoi-metadata/source1/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-27 18:34:13,832][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:13,832][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:13,832][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:13,834][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 3] Received SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 2] Received SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 1] Received SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-02-27 18:34:50,921][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 0] Received SIGTERM: 15
+[2025-02-27 18:34:50,922][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-02-27 18:34:50,994][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:51,020][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:51,034][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-27 18:34:51,072][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.

@@ -1,0 +1,16 @@
+[2025-02-24 17:49:11,482][anemoi.training.train.train][INFO] - Run id: 4f156d64-7e22-4434-a6a8-d8c5d4d38bdc
+[2025-02-24 17:49:11,483][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/4f156d64-7e22-4434-a6a8-d8c5d4d38bdc
+[2025-02-24 17:49:11,483][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/4f156d64-7e22-4434-a6a8-d8c5d4d38bdc
+[2025-02-24 17:49:20,733][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-24 17:55:18,011][root][WARNING] - Creating AreaWeights with flat=False and kwargs={'norm': 'unit-max'}. In a future release, AreaWeights will be deprecated: please use directly PlanarAreaWeights or SphericalAreaWeights.
+[2025-02-24 17:55:39,219][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-24 18:01:30,757][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-24 18:01:30,855][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 1 nearest neighbours) between data and hidden.
+[2025-02-24 18:01:31,721][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 1 nearest neighbours) between hidden and data.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-24 18:01:34,126][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-24 18:01:34,483][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km.pt.

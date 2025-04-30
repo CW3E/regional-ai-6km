@@ -1,0 +1,16 @@
+[2025-04-07 09:59:09,291][anemoi.training.train.train][INFO] - Run id: ef36ea03-4a7c-4002-af0b-a21ece39b937
+[2025-04-07 09:59:09,292][anemoi.training.train.train][INFO] - Run id: baddcc1a-ebcb-4d87-a287-674fa111e3c0
+[2025-04-07 09:59:09,292][anemoi.training.train.train][INFO] - Run id: 64981a6a-c70f-4e1e-8086-14682c502bf5
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Run id: 043d6ee3-4d30-40c8-9da2-715c2e424cf4
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/baddcc1a-ebcb-4d87-a287-674fa111e3c0
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/64981a6a-c70f-4e1e-8086-14682c502bf5
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/baddcc1a-ebcb-4d87-a287-674fa111e3c0
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/64981a6a-c70f-4e1e-8086-14682c502bf5
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/043d6ee3-4d30-40c8-9da2-715c2e424cf4
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/043d6ee3-4d30-40c8-9da2-715c2e424cf4
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/ef36ea03-4a7c-4002-af0b-a21ece39b937
+[2025-04-07 09:59:09,293][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/ef36ea03-4a7c-4002-af0b-a21ece39b937
+[2025-04-07 09:59:09,300][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-10x7-12x3.pt
+[2025-04-07 09:59:09,300][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-10x7-12x3.pt
+[2025-04-07 09:59:09,300][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-10x7-12x3.pt
+[2025-04-07 09:59:09,300][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-10x7-12x3.pt

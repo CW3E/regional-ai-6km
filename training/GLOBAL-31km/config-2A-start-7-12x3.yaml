@@ -1,0 +1,236 @@
+############## DEFAULT CONFIGURATION ##########
+defaults:
+- data: zarr
+- dataloader: native_grid
+- diagnostics: evaluation
+- hardware: slurm
+- graph: multi_scale
+- model: graphtransformer
+- training: default
+- _self_
+
+################# DATA ########################
+data:
+  resolution: ""
+  prognostic:
+  forcing:
+  - "lsm"
+  - "z_sfc"
+  - "insolation"
+  - "cos_julian_day"
+  - "cos_local_time"
+  - "cos_longitude"
+  - "cos_latitude"
+  - "sin_julian_day"
+  - "sin_local_time"
+  - "sin_longitude"
+  - "sin_latitude"
+  diagnostic:
+  - "tp"
+  normalizer:
+    default: "mean-std"
+    std:
+    - "tp"
+    min-max:
+    max:
+    none:
+    - "lsm"
+    - "z_sfc"
+    - "insolation"
+    - "cos_julian_day"
+    - "cos_local_time"
+    - "cos_longitude"
+    - "cos_latitude"
+    - "sin_julian_day"
+    - "sin_local_time"
+    - "sin_longitude"
+    - "sin_latitude"
+
+################# DATALOADER ##################
+dataloader:
+  dataset: ${hardware.paths.data}/${hardware.files.dataset}
+  # Number of workers and batch size. 
+  #   Global training batch size is equal to num_workers * per-gpu batch size. 
+  num_workers:
+    training: 1 # 8
+    validation: 1 # 8
+    test: 1 # 8
+    predict: 1 # 8
+  batch_size:
+    training: 1
+    validation: 1
+    test: 1
+    predict: 1
+  # Temporal periods for the training validation and testing datasets. TESTING?
+  training:
+    start: 2012-09-01
+    end: 2020-04-01
+    # statistics: ${hardware.paths.data}/aifs-od-an-oper-0001-mars-n320-2019-2023-6h-v6.zarr
+    drop: [q_800, t_800, z_800, u_800, v_800]
+  validation:
+    start: 2020-07-01
+    end: 2020-09-30
+    # statistics: ${hardware.paths.data}/aifs-od-an-oper-0001-mars-n320-2019-2023-6h-v6.zarr
+    drop: [q_800, t_800, z_800, u_800, v_800]
+  test:
+    start: 2020-10-01
+    end: 2023-04-15
+  #   # statistics: ${hardware.paths.data}/aifs-od-an-oper-0001-mars-n320-2019-2023-6h-v6.zarr
+    drop: [q_800, t_800, z_800, u_800, v_800]
+
+################# DIAGNOSTICS #################
+diagnostics:
+  defaults:
+    - plot: none
+    - callbacks: pretraining
+    - benchmark_profiler: simple
+  # Save the models during training (checkpointing).
+  #   This is related to "hardware", where is indicated the names of the checkpointed models
+  enable_checkpointing: True
+  checkpoint:
+    every_n_minutes:
+      save_frequency: null # Approximate, as this is checked at the end of training steps
+      num_models_saved: 0 # If set to k, saves the 'last' k model weights in the training.
+    every_n_epochs:
+      save_frequency: 1
+      num_models_saved: -1 # If set to -1, all checkpoints are kept ensuring runs can be continued/forked at any point in the training process
+    every_n_train_steps:
+      save_frequency: null # Does not scale with rollout
+      num_models_saved: 0
+  log:
+    mlflow:
+      enabled: False
+      offline: False
+      authentication: False
+      log_model: True
+      # tracking_uri: http://127.0.0.1:3326
+      experiment_name: 'anemoi-debug'
+      project_name: 'Anemoi'
+      system: True
+      terminal: True
+      run_name: null # If set to null, the run name will be the a random UUID
+      on_resume_create_child: True
+      expand_hyperparams: # Which keys in hyperparams to expand
+        - config
+    interval: 100
+  
+################# HARDWARE ####################
+hardware:
+  # Number of GPUs
+  num_gpus_per_node: 4
+  num_nodes: 16
+  num_gpus_per_model: 4
+  # Paths
+  paths:
+    data: /work/nvme/bduu/jbanomedina/regional-ai/data/zarrs/
+    grids: /work/nvme/bduu/jbanomedina/regional-ai/graphs/GLOBAL-31km/
+    output: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_
+  files:
+    dataset: era5-31km.zarr
+    graph: graph-31km-7-12x3.pt
+    checkpoint:
+      every_n_epochs: stage-A2-by_epoch-epoch_{epoch:03d}-step_{step:06d}
+      every_n_train_steps: stage-A2-by_step-epoch_{epoch:03d}-step_{step:06d}
+      every_n_minutes: stage-A2-by_time-epoch_{epoch:03d}-step_{step:06d}
+    warm_start: null # or last.ckpt or null. last.ckpt to retrain a pre-trained model
+
+################# GRAPH #######################
+graph:
+  overwrite: True
+  nodes:
+    hidden:
+      node_builder:
+        _target_: anemoi.graphs.nodes.TriNodes # options: ZarrDatasetNodes, NPZFileNodes, TriNodes
+        resolution: 7 # grid resolution for npz (o32, o48, ...)
+      attributes: ${graph.attributes.nodes}
+  edges:
+    # Encoder configuration
+  - source_name: ${graph.data}
+    target_name: ${graph.hidden}
+    edge_builder:
+      _target_: anemoi.graphs.edges.KNNEdges 
+      num_nearest_neighbours: 12
+    attributes: ${graph.attributes.edges}
+  - source_name: ${graph.hidden}
+    # Processor configuration
+    target_name: ${graph.hidden}
+    edge_builder:
+      _target_: anemoi.graphs.edges.MultiScaleEdges
+      x_hops: 1
+    attributes: ${graph.attributes.edges}
+  - source_name: ${graph.hidden}
+    # Decoder configuration
+    target_name: ${graph.data}
+    edge_builder:
+      _target_: anemoi.graphs.edges.KNNEdges 
+      num_nearest_neighbours: 3
+    attributes: ${graph.attributes.edges}
+  attributes:
+    nodes:
+      area_weight:
+        _target_: anemoi.graphs.nodes.attributes.SphericalAreaWeights # Options: UniformWeights, SphericalAreaWeights, PlanarAreaWeights
+        norm: unit-max 
+################# MODEL #######################
+model: 
+  num_channels: 512
+  processor:
+    num_layers: 16
+  bounding: 
+    - _target_: anemoi.models.layers.bounding.ReluBounding #[0, infinity)
+      variables:
+      - tp
+  trainable_parameters:
+    data: 0
+    hidden: 0
+    data2hidden: 0
+    hidden2data: 0
+    hidden2hidden: 0 # GNN and GraphTransformer Processor only
+
+################# TRAINING ####################
+training:  
+  # Start the training from a pre-trained model. 
+  #   resume or fork a training from a checkpoint last.ckpt or specified in hardware.files.warm_start
+  fork_run_id: 1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b
+  # Activate to perform transfer learning
+  load_weights_only: True
+  transfer_learning: null
+  # Epochs, steps and local learning rate.
+  max_epochs: 13
+  max_steps: 150000
+  lr: 
+    rate: 8e-7 # local_lr. global_lr = local_lr * num_gpus_per_node * num_nodes / gpus_per_model Considering 16 nodes, 4 GPUs per node, and 4 gpus per model and local lr of 3.125e-5 then global lr = 5e-4, which is also the local lr if nodes=1
+    iterations: 8500 # NOTE: When max_epochs < max_steps, scheduler will run for max_steps. # Number of iterations per epoch is approx 692. Considering a rollout of 12, then 692 x 12 + 100 = 8404. Note that this should results in 12 epochs.
+    min: 3e-7 # Not scaled by #GPU
+    warmup_t: 100
+  # Rollout
+  rollout:
+    start: 1 
+    epoch_increment: 1 # increase rollout every n epochs
+    max: 12 # maximum rollout to use
+  # Check dataset before training?
+  num_sanity_val_steps: 0
+  multistep_input: 2
+  # Relative importance of variables in the loss function
+  variable_loss_scaling:
+    default: 1
+    pl:
+      q: 0.6 #1
+      t: 6   #1
+      u: 0.8 #0.5
+      v: 0.5 #0.33
+      z: 12  #1
+    sfc:
+      sp: 10
+      10u: 0.1
+      10v: 0.1
+      2d: 0.5
+      tp: 0.025
+  metrics:
+  # - ivt_u
+  # - ivt_v
+  # - tp
+  - 2t
+
+
+
+

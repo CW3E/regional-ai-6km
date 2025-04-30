@@ -1,0 +1,77 @@
+[2025-03-12 11:32:59,205][anemoi.training.train.train][INFO] - Run id: 8e7b8007-02fc-4767-87f4-b03b47b097de
+[2025-03-12 11:32:59,206][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/8e7b8007-02fc-4767-87f4-b03b47b097de
+[2025-03-12 11:32:59,207][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/8e7b8007-02fc-4767-87f4-b03b47b097de
+[2025-03-12 11:32:59,208][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 11:32:59,756][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 11:32:59,763][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 11:33:01,250][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 562162
+[2025-03-12 11:33:11,935][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 11:33:11,936][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 11:33:11,937][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 11:33:11,937][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 11:33:11,937][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 11:33:11,937][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 11:33:12,049][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 11:33:12,050][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 11:33:17,367][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 11:33:17,371][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 11:33:17,388][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/8e7b8007-02fc-4767-87f4-b03b47b097de/last.ckpt
+[2025-03-12 11:33:24,142][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
+[2025-03-12 11:33:33,241][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 11:33:33,242][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 11:33:33,428][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 562162
+[2025-03-12 11:33:34,564][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 11:33:39,961][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 11:34:22,632][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 2                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  35774 MiB |   1518 GiB |   1518 GiB |
+|       from large pool |      0 B   |  35758 MiB |   1518 GiB |   1518 GiB |
+|       from small pool |   1536 B   |     17 MiB |      0 GiB |      0 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  46279 MiB |   1518 GiB |   1518 GiB |
+|       from large pool |      0 B   |  46263 MiB |   1518 GiB |   1518 GiB |
+|       from small pool |   2048 B   |     17 MiB |      0 GiB |      0 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  46272 MiB |   1518 GiB |   1518 GiB |
+|       from large pool |      0 B   |  46256 MiB |   1518 GiB |   1518 GiB |
+|       from small pool |     13 B   |     17 MiB |      0 GiB |      0 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   8192 KiB |  52720 MiB |  53774 MiB |  53766 MiB |
+|       from large pool |      0 KiB |  52698 MiB |  53752 MiB |  53752 MiB |
+|       from small pool |   8192 KiB |     22 MiB |     22 MiB |     14 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   4094 KiB |  16737 MiB |   1113 GiB |   1113 GiB |
+|       from large pool |      0 KiB |  16734 MiB |   1112 GiB |   1112 GiB |
+|       from small pool |   4094 KiB |      9 MiB |      0 GiB |      0 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    1909    |   16592    |   16589    |
+|       from large pool |       0    |     672    |   11901    |   11901    |
+|       from small pool |       3    |    1265    |    4691    |    4688    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2068    |   16592    |   16588    |
+|       from large pool |       0    |     888    |   11901    |   11901    |
+|       from small pool |       4    |    1265    |    4691    |    4687    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       4    |     299    |     304    |     300    |
+|       from large pool |       0    |     288    |     293    |     293    |
+|       from small pool |       4    |      11    |      11    |       7    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       4    |     126    |    6866    |    6862    |
+|       from large pool |       0    |      98    |    5666    |    5666    |
+|       from small pool |       4    |      52    |    1200    |    1196    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+

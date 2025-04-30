@@ -1,0 +1,636 @@
+[2025-04-23 13:02:25,754][anemoi.training.train.train][INFO] - Run id: f919c627-5d34-4c10-a351-94a7fb291a06
+[2025-04-23 13:02:25,755][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/f919c627-5d34-4c10-a351-94a7fb291a06
+[2025-04-23 13:02:25,755][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/f919c627-5d34-4c10-a351-94a7fb291a06
+[2025-04-23 13:02:25,755][anemoi.training.train.train][INFO] - Run id: 5acedf9a-1536-46b4-9ba2-edf38ea43930
+[2025-04-23 13:02:25,756][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/5acedf9a-1536-46b4-9ba2-edf38ea43930
+[2025-04-23 13:02:25,756][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/5acedf9a-1536-46b4-9ba2-edf38ea43930
+[2025-04-23 13:02:25,756][anemoi.training.train.train][INFO] - Run id: 137ffc9f-0325-4d4f-b499-02ec0e9d4478
+[2025-04-23 13:02:25,756][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/137ffc9f-0325-4d4f-b499-02ec0e9d4478
+[2025-04-23 13:02:25,757][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/137ffc9f-0325-4d4f-b499-02ec0e9d4478
+[2025-04-23 13:02:25,759][anemoi.training.train.train][INFO] - Run id: 361822c5-75c7-48fa-baf4-12f0ae6287fc
+[2025-04-23 13:02:25,759][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/361822c5-75c7-48fa-baf4-12f0ae6287fc
+[2025-04-23 13:02:25,760][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/361822c5-75c7-48fa-baf4-12f0ae6287fc
+[2025-04-23 13:02:25,762][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt
+[2025-04-23 13:02:25,762][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt
+[2025-04-23 13:02:25,762][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt
+[2025-04-23 13:02:25,762][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt
+[2025-04-23 13:08:07,569][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-23 13:08:07,575][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-23 13:08:07,635][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-23 13:08:07,639][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-23 13:08:08,504][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-23 13:08:08,507][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-23 13:08:08,545][lightning_fabric.utilities.seed][INFO] - [rank: 9] Seed set to 648103
+[2025-04-23 13:08:08,545][lightning_fabric.utilities.seed][INFO] - [rank: 11] Seed set to 648103
+[2025-04-23 13:08:08,907][lightning_fabric.utilities.seed][INFO] - [rank: 10] Seed set to 648103
+[2025-04-23 13:08:10,778][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-23 13:08:10,782][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-23 13:08:11,190][lightning_fabric.utilities.seed][INFO] - [rank: 8] Seed set to 648103
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-23 13:08:53,887][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-23 13:08:53,888][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-23 13:08:53,888][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-23 13:08:53,888][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-23 13:08:53,888][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-23 13:08:53,889][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-23 13:08:53,901][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-23 13:08:53,902][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-23 13:08:53,902][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-23 13:08:53,908][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-23 13:08:53,908][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-23 13:08:53,909][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-23 13:08:54,013][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-23 13:08:54,013][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-23 13:08:54,013][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-23 13:08:54,013][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-23 13:08:54,014][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-23 13:08:54,014][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-23 13:08:54,014][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-23 13:08:54,014][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-23 13:09:20,810][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-23 13:09:20,813][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-23 13:09:20,816][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-23 13:09:20,818][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-23 13:09:20,830][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:20,831][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:20,831][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:20,831][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:21,319][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-23 13:09:21,319][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-23 13:09:21,322][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-23 13:09:21,324][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-23 13:09:21,333][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:21,333][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:21,339][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:21,339][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-23 13:09:21,865][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,866][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:21,875][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,876][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:21,906][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:21,907][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:22,007][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-23 13:09:22,007][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-23 13:09:22,007][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-23 13:09:22,007][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-23 13:09:22,007][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-23 13:09:22,008][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-23 13:09:28,019][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 8, MEMBER: 9/64
+[2025-04-23 13:09:28,784][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 10, MEMBER: 11/64
+[2025-04-23 13:09:28,785][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 11, MEMBER: 12/64
+[2025-04-23 13:09:28,785][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 9, MEMBER: 10/64
+[2025-04-23 13:09:47,817][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-04-23 13:09:47,817][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-04-23 13:09:47,817][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-04-23 13:09:47,817][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-04-23 13:09:48,898][lightning_fabric.utilities.seed][INFO] - [rank: 9] Seed set to 1944309
+[2025-04-23 13:09:48,898][lightning_fabric.utilities.seed][INFO] - [rank: 10] Seed set to 1944309
+[2025-04-23 13:09:48,898][lightning_fabric.utilities.seed][INFO] - [rank: 11] Seed set to 1944309
+[2025-04-23 13:09:48,899][lightning_fabric.utilities.seed][INFO] - [rank: 8] Seed set to 1944309
+[2025-04-23 13:09:50,308][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-04-23 13:09:50,308][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-04-23 13:09:50,308][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-04-23 13:09:50,308][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-04-23 13:16:05,587][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 13:16:05,587][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 13:16:05,587][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 13:16:05,587][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:41,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:41,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:41,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:41,806][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:53,509][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:53,509][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:53,509][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 14:30:53,509][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:22,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:22,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:22,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:22,805][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:30,812][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:30,812][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:30,812][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 15:45:30,812][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:34,869][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:34,869][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:34,869][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:34,869][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:43,244][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:43,244][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:43,244][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 17:11:43,244][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:23,331][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:23,331][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:23,331][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:23,331][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:34,901][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:34,901][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:34,901][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 18:32:34,901][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:49,682][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:49,682][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:49,682][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:49,682][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:59,176][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:59,176][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:59,176][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 19:47:59,176][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:01:56,183][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:01:56,183][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:01:56,183][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:01:56,183][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:02:05,229][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:02:05,229][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:02:05,229][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 21:02:05,230][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:09,283][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:09,283][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:09,283][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:09,283][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:17,833][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:17,833][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:17,833][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 22:16:17,833][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:48,522][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:48,522][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:48,522][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:48,522][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:57,127][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:57,127][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:57,127][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-23 23:34:57,127][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:53:52,796][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:53:52,796][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:53:52,796][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:53:52,796][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:54:00,695][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:54:00,695][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:54:00,695][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 00:54:00,695][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:49,590][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:49,590][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:49,590][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:49,590][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:58,759][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:58,759][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:58,759][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 02:13:58,759][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:35,493][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:35,493][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:35,493][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:35,493][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:42,809][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:42,809][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:42,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 03:32:42,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:26,470][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:26,470][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:26,470][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:26,471][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:33,313][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:33,313][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:33,313][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 04:52:33,313][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:12:56,406][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:12:56,406][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:12:56,406][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:12:56,407][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:13:03,955][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:13:03,955][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:13:03,955][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 06:13:03,955][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:19,350][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:19,350][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:19,350][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:19,350][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:26,761][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:26,761][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:26,762][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 07:33:26,762][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:27,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:27,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:27,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:27,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:36,391][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:36,391][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:36,391][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 08:54:36,391][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:25,248][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:25,248][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:25,248][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:25,248][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:32,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:32,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:32,298][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 10:14:32,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:31,264][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:31,263][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:31,264][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:31,263][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:39,738][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:39,738][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:39,738][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 11:27:39,738][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:29,822][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:29,822][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:29,822][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:29,822][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:39,373][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:39,373][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:39,373][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 12:40:39,373][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:32,638][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:32,638][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:32,638][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:32,638][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:39,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:39,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:39,297][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 13:53:39,298][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:32,436][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:32,436][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:32,436][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:32,436][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:39,422][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:39,422][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:39,422][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 15:06:39,423][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:43,445][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:43,445][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:43,445][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:43,445][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:53,413][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:53,413][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:53,413][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 16:19:53,413][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:37,310][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:37,310][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:37,310][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:37,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:44,299][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:44,299][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:44,299][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 17:32:44,299][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:22,993][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:22,993][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:22,993][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:22,993][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:30,444][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:30,444][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:30,444][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 18:45:30,444][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:17,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:17,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:17,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:17,810][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:24,691][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:24,691][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:24,691][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 20:02:24,691][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:03,205][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:03,205][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:03,205][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:03,206][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:10,547][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:10,547][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:10,547][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 21:15:10,547][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:27:54,726][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:27:54,726][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:27:54,726][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:27:54,726][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:28:01,771][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:28:01,771][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:28:01,771][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 22:28:01,771][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:48,828][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:48,828][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:48,828][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:48,828][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:56,348][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:56,348][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:56,348][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-24 23:40:56,348][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:48,273][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:48,274][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:48,274][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:48,275][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:55,168][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:55,168][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:55,169][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 00:53:55,169][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:37,814][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:37,814][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:37,814][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:37,814][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:45,225][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:45,225][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:45,225][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 02:06:45,225][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:30,554][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:30,553][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:30,554][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:30,553][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:37,719][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:37,719][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:37,719][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 03:19:37,719][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:34,404][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:34,404][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:34,404][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:34,404][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:41,366][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:41,366][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:41,366][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 04:32:41,366][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:17,724][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:17,724][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:17,724][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:17,724][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:24,711][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:24,712][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:24,712][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 05:45:24,712][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:18,345][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:18,345][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:18,345][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:18,345][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:26,419][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:26,419][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:26,419][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 06:58:26,420][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:10,645][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:10,645][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:10,645][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:10,645][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:17,662][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:17,662][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:17,662][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 08:11:17,662][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:20,944][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:20,945][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:20,944][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:20,944][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:27,841][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:27,841][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:27,841][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:24:27,842][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-04-25 09:54:46,513][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 1                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 2         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  39956 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  39635 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   1536 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  55200 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   2048 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  55200 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |     13 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |  10240 KiB |  58720 MiB |  93984 MiB |  93974 MiB |
+|       from large pool |      0 KiB |  58260 MiB |  93240 MiB |  93240 MiB |
+|       from small pool |  10240 KiB |    460 MiB |    744 MiB |    734 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    1919    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     318    |  130649 K  |  130649 K  |
+|       from small pool |       3    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2078    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     520    |  130649 K  |  130649 K  |
+|       from small pool |       4    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-04-25 09:54:46,572][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 2                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  39956 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  39635 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   1536 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  55199 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   2048 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  55199 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |     13 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   8192 KiB |  58700 MiB |  59220 MiB |  59212 MiB |
+|       from large pool |      0 KiB |  58240 MiB |  58760 MiB |  58760 MiB |
+|       from small pool |   8192 KiB |    460 MiB |    460 MiB |    452 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    1919    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     318    |  130649 K  |  130649 K  |
+|       from small pool |       3    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2078    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     520    |  130649 K  |  130649 K  |
+|       from small pool |       4    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-04-25 09:54:46,588][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 3                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  39956 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  39635 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   1536 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  55199 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   2048 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  55199 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |     13 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |  10240 KiB |  59600 MiB |  60120 MiB |  60110 MiB |
+|       from large pool |      0 KiB |  59140 MiB |  59660 MiB |  59660 MiB |
+|       from small pool |  10240 KiB |    460 MiB |    460 MiB |    450 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    1919    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     318    |  130649 K  |  130649 K  |
+|       from small pool |       3    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2078    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     520    |  130649 K  |  130649 K  |
+|       from small pool |       4    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-04-25 09:54:46,685][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 4         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  39956 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  39635 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   1536 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  55200 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |   2048 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  55200 MiB |  23256 TiB |  23256 TiB |
+|       from large pool |      0 B   |  54883 MiB |  23238 TiB |  23238 TiB |
+|       from small pool |     13 B   |    457 MiB |     18 TiB |     18 TiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   8192 KiB |  58800 MiB | 128546 MiB | 128538 MiB |
+|       from large pool |      0 KiB |  58340 MiB | 127520 MiB | 127520 MiB |
+|       from small pool |   8192 KiB |    460 MiB |   1026 MiB |   1018 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    1919    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     318    |  130649 K  |  130649 K  |
+|       from small pool |       3    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2078    |  192199 K  |  192199 K  |
+|       from large pool |       0    |     520    |  130649 K  |  130649 K  |
+|       from small pool |       4    |    1716    |   61550 K  |   61549 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+

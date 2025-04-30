@@ -1,0 +1,120 @@
+[2025-02-27 16:10:21,104][anemoi.training.train.train][INFO] - Run id: 6369a834-3539-407d-b76b-40a3ace89042
+[2025-02-27 16:10:21,105][anemoi.training.train.train][INFO] - Run id: fac0f342-2946-46e9-baa9-625087cfab0f
+[2025-02-27 16:10:21,105][anemoi.training.train.train][INFO] - Run id: 61e9a401-f2ea-4f62-948c-6a2f65413339
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/6369a834-3539-407d-b76b-40a3ace89042
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/fac0f342-2946-46e9-baa9-625087cfab0f
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/61e9a401-f2ea-4f62-948c-6a2f65413339
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/6369a834-3539-407d-b76b-40a3ace89042
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/fac0f342-2946-46e9-baa9-625087cfab0f
+[2025-02-27 16:10:21,106][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/61e9a401-f2ea-4f62-948c-6a2f65413339
+[2025-02-27 16:10:21,107][anemoi.training.train.train][INFO] - Run id: 5f2c6a66-f72b-4237-ad41-e67c842a9316
+[2025-02-27 16:10:21,107][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/5f2c6a66-f72b-4237-ad41-e67c842a9316
+[2025-02-27 16:10:21,108][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/5f2c6a66-f72b-4237-ad41-e67c842a9316
+[2025-02-27 16:10:21,109][anemoi.training.train.train][INFO] - Run id: d1644b7a-fa97-4265-ae20-6992035f7f83
+[2025-02-27 16:10:21,110][anemoi.training.train.train][INFO] - Run id: 52b3019c-752b-4999-ae48-56b3fbd937d9
+[2025-02-27 16:10:21,111][anemoi.training.train.train][INFO] - Run id: 294b6895-9253-4329-acd5-8069a8b77c4b
+[2025-02-27 16:10:21,111][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/d1644b7a-fa97-4265-ae20-6992035f7f83
+[2025-02-27 16:10:21,112][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/52b3019c-752b-4999-ae48-56b3fbd937d9
+[2025-02-27 16:10:21,112][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/294b6895-9253-4329-acd5-8069a8b77c4b
+[2025-02-27 16:10:21,112][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/d1644b7a-fa97-4265-ae20-6992035f7f83
+[2025-02-27 16:10:21,112][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/52b3019c-752b-4999-ae48-56b3fbd937d9
+[2025-02-27 16:10:21,112][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/294b6895-9253-4329-acd5-8069a8b77c4b
+[2025-02-27 16:10:21,113][anemoi.training.train.train][INFO] - Run id: 3ab00f1a-8fb1-468b-b8b4-af385bf3a8a5
+[2025-02-27 16:10:21,113][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/3ab00f1a-8fb1-468b-b8b4-af385bf3a8a5
+[2025-02-27 16:10:21,114][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/3ab00f1a-8fb1-468b-b8b4-af385bf3a8a5
+[2025-02-27 16:10:32,714][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,714][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,714][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,714][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,720][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,720][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,720][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:10:32,720][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 16:16:43,759][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:43,769][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:44,854][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:45,833][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:46,136][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:46,668][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:47,029][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:16:49,188][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 16:22:34,672][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:34,678][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:36,479][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:37,450][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:38,444][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:39,969][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:43,641][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:22:54,060][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 16:25:43,312][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:43,483][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:45,700][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:46,332][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:47,210][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:52,870][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:25:52,919][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:26:03,902][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 16:47:01,720][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:01,966][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:04,697][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:06,250][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:12,139][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:17,404][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:33,935][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:47:39,064][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 16:48:43,796][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:48:43,798][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:48:43,798][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:48:43,802][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:48:43,802][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:48:43,802][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:48:44,007][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:48:44,009][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:48:44,014][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:48:44,014][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:48:44,014][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:48:44,014][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:48:44,016][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:48:44,288][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-10x7-8x3.pt.
+[2025-02-27 16:48:46,986][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:48:46,986][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:48:46,986][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:48:46,986][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:48:46,986][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:48:46,991][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:48:46,992][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:48:48,386][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:48:48,386][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:48:48,386][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:48:48,386][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:48:48,391][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:48:48,391][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:48:48,391][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:48:54,837][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:48:54,839][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:48:54,840][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:48:54,840][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:48:54,844][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:48:54,845][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:48:54,846][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:49:00,153][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:49:00,156][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:49:00,156][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:49:00,156][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:49:00,161][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:49:00,161][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:49:00,161][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:49:16,751][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:49:16,753][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:49:16,753][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:49:16,753][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:49:16,753][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:49:16,758][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:49:16,759][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.
+[2025-02-27 16:49:23,232][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 16:49:23,233][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 16:49:23,238][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 16:49:23,238][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 16:49:23,238][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 16:49:23,238][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 16:49:23,239][anemoi.graphs.create][INFO] - Graph already exists. Use overwrite=True to overwrite.

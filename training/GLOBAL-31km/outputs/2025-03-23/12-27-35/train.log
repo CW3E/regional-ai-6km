@@ -1,0 +1,152 @@
+[2025-03-23 12:27:35,265][anemoi.training.train.train][INFO] - Run id: 129faf8c-0187-4f4a-80ad-1367317d7e25
+[2025-03-23 12:27:35,266][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/129faf8c-0187-4f4a-80ad-1367317d7e25
+[2025-03-23 12:27:35,266][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/129faf8c-0187-4f4a-80ad-1367317d7e25
+[2025-03-23 12:27:35,272][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-23 12:27:35,292][anemoi.training.train.train][INFO] - Run id: e4797be2-772b-448c-b1de-c2b1d5034c60
+[2025-03-23 12:27:35,293][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/e4797be2-772b-448c-b1de-c2b1d5034c60
+[2025-03-23 12:27:35,293][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/e4797be2-772b-448c-b1de-c2b1d5034c60
+[2025-03-23 12:27:35,293][anemoi.training.train.train][INFO] - Run id: aa45ad12-ef42-4ab5-9f63-ca5fb7acd5c6
+[2025-03-23 12:27:35,293][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-23 12:27:35,294][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/aa45ad12-ef42-4ab5-9f63-ca5fb7acd5c6
+[2025-03-23 12:27:35,294][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/aa45ad12-ef42-4ab5-9f63-ca5fb7acd5c6
+[2025-03-23 12:27:35,294][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-23 12:27:35,307][anemoi.training.train.train][INFO] - Run id: 6f399643-1104-4b91-b359-34acef796e0a
+[2025-03-23 12:27:35,307][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/6f399643-1104-4b91-b359-34acef796e0a
+[2025-03-23 12:27:35,307][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/6f399643-1104-4b91-b359-34acef796e0a
+[2025-03-23 12:27:35,308][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-23 12:27:35,613][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-23 12:27:35,616][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-23 12:27:35,617][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-23 12:27:35,620][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-03-23 12:27:35,620][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-03-23 12:27:35,620][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-03-23 12:27:35,620][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-23 12:27:35,620][anemoi.training.train.train][INFO] - Training limits: max_epochs=50, max_steps=250000. Training will stop when either limit is reached first. Learning rate scheduler will run for 250000 steps.
+[2025-03-23 12:27:35,620][anemoi.training.train.train][INFO] - Training limits: max_epochs=50, max_steps=250000. Training will stop when either limit is reached first. Learning rate scheduler will run for 250000 steps.
+[2025-03-23 12:27:35,621][anemoi.training.train.train][INFO] - Training limits: max_epochs=50, max_steps=250000. Training will stop when either limit is reached first. Learning rate scheduler will run for 250000 steps.
+[2025-03-23 12:27:35,624][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-03-23 12:27:35,624][anemoi.training.train.train][INFO] - Training limits: max_epochs=50, max_steps=250000. Training will stop when either limit is reached first. Learning rate scheduler will run for 250000 steps.
+[2025-03-23 12:27:36,872][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-03-23 12:27:36,924][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 581297
+[2025-03-23 12:27:36,925][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 581297
+[2025-03-23 12:27:36,928][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 581297
+[2025-03-23 12:27:36,948][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-03-23 12:27:36,948][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-03-23 12:27:36,948][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-03-23 12:27:36,953][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 581297
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-23 12:27:45,861][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-23 12:27:45,863][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-23 12:27:45,862][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-23 12:27:45,868][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-23 12:27:45,868][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-23 12:27:45,868][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-23 12:27:45,868][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-23 12:27:45,869][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-23 12:27:45,870][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-23 12:27:45,969][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-23 12:27:45,969][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-23 12:27:45,970][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-23 12:27:49,978][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-23 12:27:49,978][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-23 12:27:49,978][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-23 12:27:49,978][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-23 12:27:49,982][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-23 12:27:49,982][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-23 12:27:49,982][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-23 12:27:49,983][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-23 12:27:50,006][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:27:50,006][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:27:50,006][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:27:50,006][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:27:56,040][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[2025-03-23 12:27:56,561][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+[2025-03-23 12:27:56,562][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[2025-03-23 12:27:56,562][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+[2025-03-23 12:27:56,575][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-03-23 12:28:02,683][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:28:03,786][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:03,786][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:03,787][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:03,787][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-23 12:28:03,787][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-23 12:28:03,789][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-23 12:28:03,819][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:03,821][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-23 12:28:03,891][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 581297
+[2025-03-23 12:28:03,891][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 581297
+[2025-03-23 12:28:03,891][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 581297
+[2025-03-23 12:28:03,891][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 581297
+[2025-03-23 12:28:03,899][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 61.7 M | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+61.7 M    Trainable params
+0         Non-trainable params
+61.7 M    Total params
+246.934   Total estimated model params size (MB)
+305       Modules in train mode
+0         Modules in eval mode
+[2025-03-23 12:28:03,966][pytorch_lightning.utilities.rank_zero][INFO] - Restored all states from the checkpoint at /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/1fc7d6fe-bf82-47a1-acfd-f15b1e1bfb7b/last.ckpt
+[2025-03-23 12:28:03,968][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-23 12:28:03,968][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-23 12:28:03,968][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-23 12:28:03,968][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-23 12:28:08,778][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:08,798][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:08,809][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:08,809][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-23 12:28:46,738][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 0] Received SIGTERM: 15
+[2025-03-23 12:28:46,738][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-03-23 12:28:46,744][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 1] Received SIGTERM: 15
+[2025-03-23 12:28:46,744][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-03-23 12:28:46,753][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 2] Received SIGTERM: 15
+[2025-03-23 12:28:46,753][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15
+[2025-03-23 12:28:46,761][pytorch_lightning.trainer.connectors.signal_connector][INFO] - [rank: 3] Received SIGTERM: 15
+[2025-03-23 12:28:46,762][pytorch_lightning.trainer.connectors.signal_connector][INFO] - Bypassing SIGTERM: 15

@@ -1,0 +1,4 @@
+[2025-02-24 17:43:40,952][anemoi.training.train.train][INFO] - Run id: dc78714e-ab84-4f2a-af81-ce3b9611b023
+[2025-02-24 17:43:40,954][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/dc78714e-ab84-4f2a-af81-ce3b9611b023
+[2025-02-24 17:43:40,954][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/dc78714e-ab84-4f2a-af81-ce3b9611b023
+[2025-02-24 17:43:41,086][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km.pt

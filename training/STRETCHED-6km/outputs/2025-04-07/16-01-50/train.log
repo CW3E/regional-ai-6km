@@ -1,0 +1,444 @@
+[2025-04-07 16:01:50,416][anemoi.training.train.train][INFO] - Run id: f38ecccc-7be0-4556-98be-8ca14d953087
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Run id: 8af00c03-8eb6-4d37-8ef0-777a9dcf803f
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Run id: bfdccc1b-0458-486d-a50d-7a33b21a0559
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/bfdccc1b-0458-486d-a50d-7a33b21a0559
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/8af00c03-8eb6-4d37-8ef0-777a9dcf803f
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/f38ecccc-7be0-4556-98be-8ca14d953087
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/8af00c03-8eb6-4d37-8ef0-777a9dcf803f
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/bfdccc1b-0458-486d-a50d-7a33b21a0559
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/f38ecccc-7be0-4556-98be-8ca14d953087
+[2025-04-07 16:01:50,417][anemoi.training.train.train][INFO] - Run id: d59eca21-66d2-4a31-a06d-a42f5fcfbb19
+[2025-04-07 16:01:50,418][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/d59eca21-66d2-4a31-a06d-a42f5fcfbb19
+[2025-04-07 16:01:50,418][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/d59eca21-66d2-4a31-a06d-a42f5fcfbb19
+[2025-04-07 16:02:08,248][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//cw3e-6km-train.zarr', 'thinning': 1}, {'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//era5-31km.zarr'}], 'adjust': 'all', 'min_distance_km': 3}.
+[2025-04-07 16:02:08,248][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//cw3e-6km-train.zarr', 'thinning': 1}, {'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//era5-31km.zarr'}], 'adjust': 'all', 'min_distance_km': 3}.
+[2025-04-07 16:02:08,248][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//cw3e-6km-train.zarr', 'thinning': 1}, {'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//era5-31km.zarr'}], 'adjust': 'all', 'min_distance_km': 3}.
+[2025-04-07 16:02:08,248][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//cw3e-6km-train.zarr', 'thinning': 1}, {'dataset': '/work/nvme/bduu/jbanomedina/regional-ai/data/zarrs//era5-31km.zarr'}], 'adjust': 'all', 'min_distance_km': 3}.
+[2025-04-07 16:14:28,078][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-04-07 16:14:38,056][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-04-07 16:14:43,553][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-04-07 16:14:43,739][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-04-07 16:15:18,221][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 12 nearest neighbours) between data and hidden.
+[2025-04-07 16:15:28,362][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 12 nearest neighbours) between data and hidden.
+[2025-04-07 16:15:33,732][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 12 nearest neighbours) between data and hidden.
+[2025-04-07 16:15:34,057][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 12 nearest neighbours) between data and hidden.
+[2025-04-07 16:19:22,128][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-04-07 16:19:34,753][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-04-07 16:19:40,972][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-04-07 16:19:41,076][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-04-07 16:20:23,366][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-04-07 16:20:23,367][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-04-07 16:20:23,369][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-04-07 16:20:23,369][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-04-07 16:20:23,369][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-04-07 16:20:23,370][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-04-07 16:20:23,613][anemoi.graphs.create][INFO] - Graph saved at /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt.
+[2025-04-07 16:20:36,156][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-04-07 16:20:36,157][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-04-07 16:20:36,157][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-04-07 16:20:36,157][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-04-07 16:20:36,158][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-04-07 16:20:36,159][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-04-07 16:20:36,306][anemoi.graphs.create][INFO] - Graph saved at /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt.
+[2025-04-07 16:20:42,387][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-04-07 16:20:42,388][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-04-07 16:20:42,388][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-04-07 16:20:42,390][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-04-07 16:20:42,390][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-04-07 16:20:42,390][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-04-07 16:20:42,486][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-04-07 16:20:42,486][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-04-07 16:20:42,491][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-04-07 16:20:42,492][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-04-07 16:20:42,492][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-04-07 16:20:42,492][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-04-07 16:20:42,536][anemoi.graphs.create][INFO] - Graph saved at /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt.
+[2025-04-07 16:20:42,727][anemoi.graphs.create][INFO] - Graph saved at /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-9x7-12x3.pt.
+[2025-04-07 16:26:23,841][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-07 16:26:23,849][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-07 16:26:23,850][anemoi.training.train.train][INFO] - Training limits: max_epochs=10, max_steps=25000. Training will stop when either limit is reached first. Learning rate scheduler will run for 25000 steps.
+[2025-04-07 16:26:24,246][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 616798
+[2025-04-07 16:26:40,321][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-07 16:26:40,325][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-07 16:26:40,326][anemoi.training.train.train][INFO] - Training limits: max_epochs=10, max_steps=25000. Training will stop when either limit is reached first. Learning rate scheduler will run for 25000 steps.
+[2025-04-07 16:26:40,486][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 616798
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-07 16:26:43,668][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-07 16:26:43,669][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-07 16:26:43,669][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-07 16:26:43,669][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-07 16:26:43,669][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-07 16:26:43,669][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-07 16:26:43,942][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-07 16:26:43,942][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-07 16:26:44,457][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-07 16:26:44,461][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-07 16:26:44,549][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:44,549][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:45,780][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-07 16:26:45,780][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-07 16:26:45,780][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.proc.lin_edge.weight
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_dst.weight
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 4])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 12])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_src.weight
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:45,781][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.0.lin_edge.weight
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.1.lin_edge.weight
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.2.lin_edge.weight
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.3.lin_edge.weight
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.4.lin_edge.weight
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,782][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.5.lin_edge.weight
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.6.lin_edge.weight
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.7.lin_edge.weight
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.0.lin_edge.weight
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.1.lin_edge.weight
+[2025-04-07 16:26:45,783][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.2.lin_edge.weight
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.3.lin_edge.weight
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.4.lin_edge.weight
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.5.lin_edge.weight
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,784][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.6.lin_edge.weight
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.7.lin_edge.weight
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.proc.lin_edge.weight
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.emb_nodes_dst.weight
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-07 16:26:45,785][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:45,786][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:45,786][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-07 16:26:45,786][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:45,786][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-07 16:26:45,955][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-07 16:26:45,956][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-07 16:26:45,956][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-07 16:26:45,956][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-07 16:26:46,054][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-07 16:26:46,055][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-07 16:26:46,429][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-07 16:26:46,432][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-07 16:26:46,442][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:46,443][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:46,851][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-07 16:26:46,852][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-07 16:26:46,852][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-07 16:26:46,852][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-07 16:26:46,852][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.proc.lin_edge.weight
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_dst.weight
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 4])
+[2025-04-07 16:26:46,853][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 12])
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_src.weight
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.0.lin_edge.weight
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,854][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.1.lin_edge.weight
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.2.lin_edge.weight
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.3.lin_edge.weight
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,855][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.4.lin_edge.weight
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.5.lin_edge.weight
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.6.lin_edge.weight
+[2025-04-07 16:26:46,856][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.7.lin_edge.weight
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.0.lin_edge.weight
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,857][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.1.lin_edge.weight
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.2.lin_edge.weight
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.3.lin_edge.weight
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,858][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.4.lin_edge.weight
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.5.lin_edge.weight
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.6.lin_edge.weight
+[2025-04-07 16:26:46,859][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.7.lin_edge.weight
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.proc.lin_edge.weight
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:46,860][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.emb_nodes_dst.weight
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:46,861][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:49,672][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-07 16:26:49,676][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-07 16:26:49,677][anemoi.training.train.train][INFO] - Training limits: max_epochs=10, max_steps=25000. Training will stop when either limit is reached first. Learning rate scheduler will run for 25000 steps.
+[2025-04-07 16:26:49,825][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 616798
+[2025-04-07 16:26:50,295][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-04-07 16:26:50,299][anemoi.training.train.train][INFO] - Number of data variables: 87
+[2025-04-07 16:26:50,300][anemoi.training.train.train][INFO] - Training limits: max_epochs=10, max_steps=25000. Training will stop when either limit is reached first. Learning rate scheduler will run for 25000 steps.
+[2025-04-07 16:26:50,326][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-04-07 16:26:50,369][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-04-07 16:26:50,369][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-04-07 16:26:50,369][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-04-07 16:26:50,375][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 616798
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-07 16:26:55,056][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-04-07 16:26:55,067][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-04-07 16:26:55,068][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-04-07 16:26:55,068][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-04-07 16:26:55,068][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-04-07 16:26:55,068][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-04-07 16:26:55,155][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-07 16:26:55,155][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-07 16:26:55,165][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-04-07 16:26:55,165][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-04-07 16:26:55,538][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-07 16:26:55,541][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-07 16:26:55,552][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:55,552][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-04-07 16:26:55,552][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:55,554][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-04-07 16:26:55,565][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:55,565][anemoi.training.train.train][INFO] - Loading weights with Transfer Learning from /work/nvme/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/source/last.ckpt
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.proc.lin_edge.weight
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,952][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_dst.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 4])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 12])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_src.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.0.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.1.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.2.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.3.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.4.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.5.lin_edge.weight
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,953][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.6.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.7.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.0.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.1.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.2.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.3.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.4.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.5.lin_edge.weight
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,954][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.6.lin_edge.weight
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.7.lin_edge.weight
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.proc.lin_edge.weight
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.emb_nodes_dst.weight
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:55,955][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:56,055][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_data
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080, 4])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063, 4])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.node_attributes.latlons_hidden
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([163842, 4])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([387462, 4])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.proc.lin_edge.weight
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_dst.weight
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 4])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 12])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.encoder.emb_nodes_src.weight
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.0.lin_edge.weight
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.1.lin_edge.weight
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,056][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.2.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.3.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.4.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.5.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.6.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.0.blocks.7.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.0.lin_edge.weight
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,057][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.1.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.2.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.3.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.4.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.5.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.6.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.processor.proc.1.blocks.7.lin_edge.weight
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,058][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.proc.lin_edge.weight
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 3])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 11])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: model.model.decoder.emb_nodes_dst.weight
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([512, 176])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([512, 184])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: loss.node_weights
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Skipping loading parameter: metrics.0.node_weights
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Checkpoint shape: torch.Size([542080])
+[2025-04-07 16:26:56,059][anemoi.training.utils.checkpoint][INFO] - Model shape: torch.Size([1817063])

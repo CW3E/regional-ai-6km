@@ -1,0 +1,60 @@
+[2025-02-27 17:37:22,256][anemoi.training.train.train][INFO] - Run id: 46430bbc-43b0-4349-9d90-02f9ed6a3cd0
+[2025-02-27 17:37:22,258][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/46430bbc-43b0-4349-9d90-02f9ed6a3cd0
+[2025-02-27 17:37:22,258][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/46430bbc-43b0-4349-9d90-02f9ed6a3cd0
+[2025-02-27 17:37:37,728][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-cw3e-6km-allvars.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//test-1979-01-era5-31km-allvars.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-02-27 17:43:56,147][anemoi.graphs.nodes.attributes][WARNING] - SphericalAreaWeights is filling 1 (0.00%) nodes with value 0.000000
+[2025-02-27 17:49:55,130][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1323840 reference nodes from "data (cutout)".
+[2025-02-27 17:49:56,710][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 8 nearest neighbours) between data and hidden.
+[2025-02-27 17:50:05,429][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 3 nearest neighbours) between hidden and data.
+[2025-02-27 17:50:22,290][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-02-27 17:50:22,291][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-02-27 17:50:22,291][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-02-27 17:50:22,292][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-02-27 17:50:22,292][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-02-27 17:50:22,292][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-02-27 17:50:22,589][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-6x6-8x3.pt.
+[2025-02-27 17:56:16,041][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-27 17:56:16,049][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-27 17:56:16,251][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-02-27 17:56:16,369][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-02-27 17:56:16,369][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-02-27 17:56:16,369][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-02-27 17:56:16,392][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 532322
+[2025-02-27 17:56:33,235][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-27 17:56:33,236][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-27 17:56:33,237][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-27 17:56:33,237][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-27 17:56:33,504][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-27 17:56:33,505][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-27 17:56:34,811][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-27 17:56:34,815][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-27 17:56:35,300][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+[2025-02-27 17:56:35,323][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-02-27 17:56:36,805][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-02-27 17:56:37,240][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 532322
+[2025-02-27 17:56:37,259][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 309 M  | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+309 M     Trainable params
+0         Non-trainable params
+309 M     Total params
+1,239.959 Total estimated model params size (MB)
+305       Modules in train mode
+0         Modules in eval mode
+[2025-02-27 17:56:37,260][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-27 18:03:07,672][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.

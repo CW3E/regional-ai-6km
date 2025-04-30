@@ -1,0 +1,589 @@
+[2025-02-28 15:24:10,659][anemoi.training.train.train][INFO] - Run id: a2ab8abf-dbbd-4a74-8f70-75ea8d292e9c
+[2025-02-28 15:24:10,659][anemoi.training.train.train][INFO] - Run id: 7ee2560a-9488-4fa7-bcb5-108f5d43a736
+[2025-02-28 15:24:10,659][anemoi.training.train.train][INFO] - Run id: f869b92f-e7e6-43cb-b616-c637e284fd08
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/7ee2560a-9488-4fa7-bcb5-108f5d43a736
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/a2ab8abf-dbbd-4a74-8f70-75ea8d292e9c
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/f869b92f-e7e6-43cb-b616-c637e284fd08
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/7ee2560a-9488-4fa7-bcb5-108f5d43a736
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Run id: 98813c05-74d1-4c32-8d2c-94313a16ee67
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/f869b92f-e7e6-43cb-b616-c637e284fd08
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/a2ab8abf-dbbd-4a74-8f70-75ea8d292e9c
+[2025-02-28 15:24:10,660][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67
+[2025-02-28 15:24:10,661][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/98813c05-74d1-4c32-8d2c-94313a16ee67
+[2025-02-28 15:24:10,744][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-8x3.pt
+[2025-02-28 15:24:10,744][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-8x3.pt
+[2025-02-28 15:24:10,744][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-8x3.pt
+[2025-02-28 15:24:10,744][anemoi.training.train.train][INFO] - Loading graph data from /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-6-8x3.pt
+[2025-02-28 15:24:11,335][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 15:24:11,335][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 15:24:11,335][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 15:24:11,336][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-02-28 15:24:11,343][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-28 15:24:11,343][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-28 15:24:11,343][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-28 15:24:11,343][anemoi.training.train.train][INFO] - Number of data variables: 77
+[2025-02-28 15:24:22,197][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,197][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,197][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,197][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,199][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,199][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,199][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,200][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,203][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,203][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,203][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,203][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 15:24:22,204][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 15:24:22,204][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 15:24:22,204][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,205][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,205][anemoi.training.diagnostics.callbacks.plot][INFO] - Using defined accumulation colormap for fields: ['tp']
+[2025-02-28 15:24:22,205][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,206][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,206][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,206][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,207][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].
+[2025-02-28 15:24:22,207][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,207][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].
+[2025-02-28 15:24:22,208][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,208][anemoi.training.diagnostics.callbacks.plot][INFO] - Setting up asynchronous plotting ...
+[2025-02-28 15:24:22,208][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].
+[2025-02-28 15:24:22,208][anemoi.training.diagnostics.callbacks.plot][INFO] - Using precip histogram plotting method for fields: ['tp'].
+[2025-02-28 15:24:23,443][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-02-28 15:24:23,593][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-02-28 15:24:23,593][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-02-28 15:24:23,593][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-02-28 15:24:23,615][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 536725
+[2025-02-28 15:24:23,615][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 536725
+[2025-02-28 15:24:23,615][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 536725
+[2025-02-28 15:24:23,615][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 536725
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-28 15:24:40,498][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-28 15:24:40,499][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-28 15:24:40,500][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-28 15:24:40,501][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-28 15:24:40,501][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-28 15:24:40,501][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-28 15:24:40,501][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-28 15:24:40,501][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-28 15:24:40,504][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-02-28 15:24:40,504][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-02-28 15:24:40,505][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-28 15:24:40,589][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-28 15:24:40,590][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-02-28 15:24:45,366][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-28 15:24:45,366][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-28 15:24:45,367][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-28 15:24:45,367][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-02-28 15:24:45,372][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-28 15:24:45,372][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-28 15:24:45,372][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-28 15:24:45,372][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-02-28 15:24:51,454][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[2025-02-28 15:24:52,104][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+[2025-02-28 15:24:52,107][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+[2025-02-28 15:24:52,107][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[2025-02-28 15:24:52,137][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-02-28 15:24:58,676][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-28 15:24:58,676][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-28 15:24:58,676][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-28 15:24:58,676][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-02-28 15:24:58,854][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 536725
+[2025-02-28 15:24:58,854][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 536725
+[2025-02-28 15:24:58,854][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 536725
+[2025-02-28 15:24:58,855][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 536725
+[2025-02-28 15:24:58,866][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 246 M  | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+246 M     Trainable params
+0         Non-trainable params
+246 M     Total params
+984.396   Total estimated model params size (MB)
+305       Modules in train mode
+0         Modules in eval mode
+[2025-02-28 15:24:58,871][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-28 15:24:58,871][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-28 15:24:58,871][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-28 15:24:58,871][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-02-28 15:25:01,095][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:01,105][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:01,106][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:01,107][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:16,915][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:16,999][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:17,001][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:17,041][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:17,464][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:17,483][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:17,484][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:17,485][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,321][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,344][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,355][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,355][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,733][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,755][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,755][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:22,764][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,171][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,185][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,185][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,185][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,610][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,610][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,610][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:23,610][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:24,158][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:24,199][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:24,216][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:24,217][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:25:24,255][anemoi.training.diagnostics.callbacks.plot][WARNING] - There are no trainable node attributes to plot.
+[2025-02-28 15:25:24,279][anemoi.training.diagnostics.callbacks.plot][WARNING] - There are no trainable edge attributes to plot.
+[2025-02-28 15:25:27,139][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-stage-x-by_epoch-epoch_000-step_000006.ckpt
+[2025-02-28 15:25:27,140][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/ai-models.json
+[2025-02-28 15:25:27,148][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:25:27,150][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_000-step_000006/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:25:39,552][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-last.ckpt
+[2025-02-28 15:25:39,552][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-28 15:25:39,560][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:25:39,562][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:25:49,739][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:49,739][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:49,739][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:25:49,740][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:01,492][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:01,508][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:01,511][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:02,640][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:03,041][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:03,092][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:03,092][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:03,093][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,406][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,455][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,455][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,455][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,925][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,955][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,956][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:06,958][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,089][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,110][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,110][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,110][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,557][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,575][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,594][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,595][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,974][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,990][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,990][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:09,990][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:13,355][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-stage-x-by_epoch-epoch_001-step_000012.ckpt
+[2025-02-28 15:26:13,380][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/ai-models.json
+[2025-02-28 15:26:13,399][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:26:13,402][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_001-step_000012/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:26:29,505][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-last.ckpt
+[2025-02-28 15:26:29,506][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-28 15:26:29,512][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:26:29,537][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:26:38,431][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:38,431][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:38,431][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:38,450][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:48,671][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:48,704][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:48,711][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:49,303][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:26:49,698][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:49,732][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:49,744][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:50,667][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:52,898][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:52,940][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:52,940][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:52,940][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:53,419][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:53,480][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:53,480][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:53,480][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,274][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,295][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,295][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,295][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,720][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,720][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,720][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:56,721][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:57,067][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:57,095][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:57,095][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:26:57,095][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:03,461][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-stage-x-by_epoch-epoch_002-step_000018.ckpt
+[2025-02-28 15:27:03,461][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_002-step_000018/anemoi-metadata/ai-models.json
+[2025-02-28 15:27:03,484][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_002-step_000018/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:27:03,487][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_002-step_000018/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:27:16,312][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-last.ckpt
+[2025-02-28 15:27:16,312][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-28 15:27:16,313][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:27:16,316][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:27:25,961][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:25,961][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:25,961][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:25,962][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:35,487][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:35,504][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:35,505][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:36,084][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:27:36,477][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:36,525][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:36,525][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:37,470][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,500][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,540][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,540][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,540][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,954][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,970][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,970][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:41,971][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:42,381][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:42,390][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:42,390][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:42,390][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:42,787][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,214][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,225][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,225][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,610][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,630][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,630][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:43,630][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:27:50,558][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-stage-x-by_epoch-epoch_003-step_000024.ckpt
+[2025-02-28 15:27:50,595][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_003-step_000024/anemoi-metadata/ai-models.json
+[2025-02-28 15:27:50,596][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_003-step_000024/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:27:50,599][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_003-step_000024/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:03,769][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-last.ckpt
+[2025-02-28 15:28:03,769][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-28 15:28:03,770][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:03,772][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:12,745][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:12,745][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:12,746][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:12,746][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:23,278][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:23,286][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:23,289][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:23,852][anemoi.training.diagnostics.callbacks.sanity][INFO] - No variable order to compare. Skipping variable order check.
+[2025-02-28 15:28:24,245][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:24,293][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:24,294][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:25,231][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:27,496][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:27,497][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:27,497][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:27,498][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:28,029][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:28,072][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:28,072][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:28,081][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:29,914][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:29,955][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:29,955][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:29,955][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,324][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,342][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,342][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,342][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,738][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,773][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,773][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:30,773][anemoi.training.diagnostics.callbacks.plot][WARNING] - Asynchronous plotting can result in NCCL timeouts with reader_group_size > 1.
+[2025-02-28 15:28:35,187][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-stage-x-by_epoch-epoch_004-step_000030.ckpt
+[2025-02-28 15:28:35,188][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_004-step_000030/anemoi-metadata/ai-models.json
+[2025-02-28 15:28:35,195][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_004-step_000030/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:35,198][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_004-step_000030/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:48,203][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/98813c05-74d1-4c32-8d2c-94313a16ee67/inference-last.ckpt
+[2025-02-28 15:28:48,204][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-02-28 15:28:48,205][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:48,207][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-02-28 15:28:57,646][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=5` reached.
+[2025-02-28 15:29:07,268][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,268][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,269][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,269][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,270][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,270][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,270][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,271][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,271][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,271][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,272][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 1                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  14424 MiB |  10584 GiB |  10584 GiB |
+|       from large pool |      0 B   |  14410 MiB |  10566 GiB |  10566 GiB |
+|       from small pool |   1536 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  18124 MiB |  10584 GiB |  10584 GiB |
+|       from large pool |      0 B   |  18111 MiB |  10566 GiB |  10566 GiB |
+|       from small pool |   2048 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  18091 MiB |  10577 GiB |  10577 GiB |
+|       from large pool |      0 B   |  18078 MiB |  10559 GiB |  10559 GiB |
+|       from small pool |     13 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |  10240 KiB |  21742 MiB |  22464 MiB |  22454 MiB |
+|       from large pool |      0 KiB |  21720 MiB |  22442 MiB |  22442 MiB |
+|       from small pool |  10240 KiB |     22 MiB |     22 MiB |     12 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   6142 KiB |   9908 MiB |  10557 GiB |  10557 GiB |
+|       from large pool |      0 KiB |   9902 MiB |  10538 GiB |  10538 GiB |
+|       from small pool |   6142 KiB |     11 MiB |     19 GiB |     19 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    2032    |  309407    |  309404    |
+|       from large pool |       0    |     697    |  223056    |  223056    |
+|       from small pool |       3    |    1362    |   86351    |   86348    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2191    |  309407    |  309403    |
+|       from large pool |       0    |     913    |  223056    |  223056    |
+|       from small pool |       4    |    1362    |   86351    |   86347    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       5    |     162    |     165    |     160    |
+|       from large pool |       0    |     151    |     154    |     154    |
+|       from small pool |       5    |      11    |      11    |       6    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       6    |     128    |  130267    |  130261    |
+|       from large pool |       0    |     101    |   99499    |   99499    |
+|       from small pool |       6    |      61    |   30768    |   30762    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-02-28 15:29:07,534][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,534][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,534][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,534][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,535][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,535][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,536][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:07,537][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:07,538][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 2                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  14415 MiB |  10582 GiB |  10582 GiB |
+|       from large pool |      0 B   |  14402 MiB |  10564 GiB |  10564 GiB |
+|       from small pool |   1536 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  18117 MiB |  10582 GiB |  10582 GiB |
+|       from large pool |      0 B   |  18103 MiB |  10564 GiB |  10564 GiB |
+|       from small pool |   2048 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  18091 MiB |  10575 GiB |  10575 GiB |
+|       from large pool |      0 B   |  18078 MiB |  10557 GiB |  10557 GiB |
+|       from small pool |     13 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |  10240 KiB |  21742 MiB |  22464 MiB |  22454 MiB |
+|       from large pool |      0 KiB |  21720 MiB |  22442 MiB |  22442 MiB |
+|       from small pool |  10240 KiB |     22 MiB |     22 MiB |     12 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   4094 KiB |  10556 MiB |  10512 GiB |  10512 GiB |
+|       from large pool |      0 KiB |  10551 MiB |  10492 GiB |  10492 GiB |
+|       from small pool |   4094 KiB |     11 MiB |     19 GiB |     19 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    2032    |  309407    |  309404    |
+|       from large pool |       0    |     697    |  223056    |  223056    |
+|       from small pool |       3    |    1362    |   86351    |   86348    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2191    |  309407    |  309403    |
+|       from large pool |       0    |     913    |  223056    |  223056    |
+|       from small pool |       4    |    1362    |   86351    |   86347    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       5    |     162    |     165    |     160    |
+|       from large pool |       0    |     151    |     154    |     154    |
+|       from small pool |       5    |      11    |      11    |       6    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       5    |     138    |  131450    |  131445    |
+|       from large pool |       0    |      97    |  100145    |  100145    |
+|       from small pool |       5    |      67    |   31305    |   31300    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-02-28 15:29:07,538][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 3                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   1536 B   |  14417 MiB |  10582 GiB |  10582 GiB |
+|       from large pool |      0 B   |  14404 MiB |  10565 GiB |  10565 GiB |
+|       from small pool |   1536 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |   2048 B   |  18116 MiB |  10582 GiB |  10582 GiB |
+|       from large pool |      0 B   |  18103 MiB |  10565 GiB |  10565 GiB |
+|       from small pool |   2048 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |     13 B   |  18091 MiB |  10575 GiB |  10575 GiB |
+|       from large pool |      0 B   |  18078 MiB |  10557 GiB |  10557 GiB |
+|       from small pool |     13 B   |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |  10240 KiB |  22262 MiB |  22984 MiB |  22974 MiB |
+|       from large pool |      0 KiB |  22240 MiB |  22962 MiB |  22962 MiB |
+|       from small pool |  10240 KiB |     22 MiB |     22 MiB |     12 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   6142 KiB |  10330 MiB |  10377 GiB |  10377 GiB |
+|       from large pool |      0 KiB |  10326 MiB |  10358 GiB |  10358 GiB |
+|       from small pool |   6142 KiB |     11 MiB |     19 GiB |     19 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       3    |    2032    |  309407    |  309404    |
+|       from large pool |       0    |     697    |  223056    |  223056    |
+|       from small pool |       3    |    1362    |   86351    |   86348    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       4    |    2191    |  309407    |  309403    |
+|       from large pool |       0    |     913    |  223056    |  223056    |
+|       from small pool |       4    |    1362    |   86351    |   86347    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       5    |     164    |     167    |     162    |
+|       from large pool |       0    |     153    |     156    |     156    |
+|       from small pool |       5    |      11    |      11    |       6    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       6    |     133    |  131059    |  131053    |
+|       from large pool |       0    |      98    |   99979    |   99979    |
+|       from small pool |       6    |      67    |   31080    |   31074    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-02-28 15:29:10,120][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:10,122][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:10,123][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:10,123][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:10,124][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:10,125][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:10,126][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:10,126][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:10,127][anemoi.training.diagnostics.callbacks.plot][INFO] - Teardown of the Plot Callback ...
+[2025-02-28 15:29:10,127][anemoi.training.diagnostics.callbacks.plot][INFO] - waiting and shutting down the executor ...
+[2025-02-28 15:29:10,129][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      | 628899 KiB |  18898 MiB |  10596 GiB |  10595 GiB |
+|       from large pool | 628897 KiB |  18888 MiB |  10578 GiB |  10577 GiB |
+|       from small pool |      2 KiB |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         | 628900 KiB |  20425 MiB |  10596 GiB |  10595 GiB |
+|       from large pool | 628897 KiB |  20414 MiB |  10578 GiB |  10577 GiB |
+|       from small pool |      2 KiB |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      | 628897 KiB |  20407 MiB |  10590 GiB |  10589 GiB |
+|       from large pool | 628897 KiB |  20396 MiB |  10572 GiB |  10571 GiB |
+|       from small pool |      0 KiB |     18 MiB |     17 GiB |     17 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   6062 MiB |  26066 MiB |  26788 MiB |  20726 MiB |
+|       from large pool |   6052 MiB |  26044 MiB |  26766 MiB |  20714 MiB |
+|       from small pool |     10 MiB |     22 MiB |     22 MiB |     12 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory | 735068 KiB |   9109 MiB |  10122 GiB |  10122 GiB |
+|       from large pool | 728926 KiB |   9102 MiB |  10103 GiB |  10102 GiB |
+|       from small pool |   6141 KiB |     11 MiB |     19 GiB |     19 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       6    |    2044    |  309557    |  309551    |
+|       from large pool |       2    |     705    |  223113    |  223111    |
+|       from small pool |       4    |    1366    |   86444    |   86440    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       7    |    2064    |  309557    |  309550    |
+|       from large pool |       2    |     897    |  223113    |  223111    |
+|       from small pool |       5    |    1366    |   86444    |   86439    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      15    |     168    |     171    |     156    |
+|       from large pool |      10    |     157    |     160    |     150    |
+|       from small pool |       5    |      11    |      11    |       6    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       9    |     134    |  123086    |  123077    |
+|       from large pool |       3    |      90    |   93209    |   93206    |
+|       from small pool |       6    |      68    |   29877    |   29871    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+

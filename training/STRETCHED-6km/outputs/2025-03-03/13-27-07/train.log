@@ -1,0 +1,25 @@
+[2025-03-03 13:27:07,632][anemoi.training.train.train][INFO] - Run id: 5a820d11-105d-4cf1-a3dd-586e66b07504
+[2025-03-03 13:27:07,633][anemoi.training.train.train][INFO] - Checkpoints path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_checkpoint/5a820d11-105d-4cf1-a3dd-586e66b07504
+[2025-03-03 13:27:07,634][anemoi.training.train.train][INFO] - Plots path: /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_plots/5a820d11-105d-4cf1-a3dd-586e66b07504
+[2025-03-03 13:27:21,307][anemoi.graphs.nodes.builders.from_file][INFO] - Reading the dataset from {'cutout': [{'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//1979-01-cw3e-6km.zarr', 'thinning': 1}, {'dataset': '/work/hdd/bduu/jbanomedina/regional-ai/data/zarrs//1979-01-era5-31km.zarr'}], 'adjust': 'all', 'min_distance_km': 0}.
+[2025-03-03 13:40:10,260][anemoi.graphs.generate.masks][INFO] - Fitting KNNAreaMaskBuilder with 1347330 reference nodes from "data (cutout)".
+[2025-03-03 13:40:10,586][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 2 nearest neighbours) between data and hidden.
+[2025-03-03 13:40:11,626][anemoi.graphs.edges.builder][INFO] - Using KNN-Edges (with 2 nearest neighbours) between hidden and data.
+[2025-03-03 13:40:18,162][anemoi.graphs.create][INFO] - Cleaning graph.
+[2025-03-03 13:40:18,163][anemoi.graphs.create][INFO] - _dataset deleted from graph.
+[2025-03-03 13:40:18,163][anemoi.graphs.create][INFO] - _area_mask_builder deleted from graph.
+[2025-03-03 13:40:18,163][anemoi.graphs.create][INFO] - _resolutions deleted from graph.
+[2025-03-03 13:40:18,163][anemoi.graphs.create][INFO] - _nx_graph deleted from graph.
+[2025-03-03 13:40:18,163][anemoi.graphs.create][INFO] - _node_ordering deleted from graph.
+[2025-03-03 13:40:18,579][anemoi.graphs.create][INFO] - Graph saved at /work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/logs/outputs_graphs/STRETCHED-6km-3x3-2x2.pt.
+[2025-03-03 13:46:25,844][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-03 13:46:26,382][anemoi.training.train.train][INFO] - Number of data variables: 5
+[2025-03-03 13:46:26,542][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-03-03 13:46:26,731][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-03-03 13:46:26,731][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-03-03 13:46:26,731][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-03-03 13:46:26,744][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 549180
+[2025-03-03 13:46:42,534][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-03 13:46:42,535][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-03 13:46:42,763][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-03 13:46:42,764][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}

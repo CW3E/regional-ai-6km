@@ -1,0 +1,801 @@
+[2025-03-12 10:28:19,454][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,455][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,455][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,455][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,455][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,455][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,456][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,457][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,458][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,458][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,458][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,458][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,458][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,460][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,459][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,461][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,460][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,461][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,463][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,462][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,464][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,463][anemoi.training.train.train][INFO] - Run id: d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,464][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,469][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,465][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,471][anemoi.training.train.train][INFO] - Checkpoints path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,467][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,477][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,475][anemoi.training.train.train][INFO] - Plots path: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_plots/d135149c-88e7-428f-8837-a97c3d5684c9
+[2025-03-12 10:28:19,479][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,478][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,480][anemoi.training.train.train][INFO] - Loading graph data from /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_graphs/graph-31km-7-12x3.pt
+[2025-03-12 10:28:19,719][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:19,719][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:19,719][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:19,721][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:19,725][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:19,725][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:19,725][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:19,725][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:20,373][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:20,373][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:20,375][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:20,381][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:20,381][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:20,381][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:20,385][anemoi.training.data.datamodule][INFO] - Timeincrement set to 1 for data with frequency, 21600, and timestep, 21600
+[2025-03-12 10:28:20,388][anemoi.training.train.train][INFO] - Number of data variables: 92
+[2025-03-12 10:28:21,016][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit Automatic Mixed Precision (AMP)
+[2025-03-12 10:28:21,156][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-03-12 10:28:21,156][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-03-12 10:28:21,156][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-03-12 10:28:21,202][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 562000
+[2025-03-12 10:28:21,202][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 562000
+[2025-03-12 10:28:21,202][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 562000
+[2025-03-12 10:28:21,202][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 562000
+[2025-03-12 10:28:21,813][lightning_fabric.utilities.seed][INFO] - [rank: 5] Seed set to 562000
+[2025-03-12 10:28:21,813][lightning_fabric.utilities.seed][INFO] - [rank: 7] Seed set to 562000
+[2025-03-12 10:28:21,813][lightning_fabric.utilities.seed][INFO] - [rank: 6] Seed set to 562000
+[2025-03-12 10:28:21,813][lightning_fabric.utilities.seed][INFO] - [rank: 4] Seed set to 562000
+[2025-03-12 10:28:31,103][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,103][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,103][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,104][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,105][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,106][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,107][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,207][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,207][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,207][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,207][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,207][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,208][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,208][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,208][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,757][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,757][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,758][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,759][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,760][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_julian_day is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_latitude is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_local_time is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: cos_longitude is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: insolation is not normalized.
+[2025-03-12 10:28:31,764][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: lsm is not normalized.
+[2025-03-12 10:28:31,765][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_julian_day is not normalized.
+[2025-03-12 10:28:31,765][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_latitude is not normalized.
+[2025-03-12 10:28:31,765][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_local_time is not normalized.
+[2025-03-12 10:28:31,765][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: sin_longitude is not normalized.
+[2025-03-12 10:28:31,765][anemoi.models.preprocessing.normalizer][INFO] - Normalizing: z_sfc is not normalized.
+[2025-03-12 10:28:31,870][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,870][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,870][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,870][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,870][anemoi.models.layers.utils][INFO] - Linear kernel: {'_target_': 'torch.nn.Linear', '_partial_': True}
+[2025-03-12 10:28:31,871][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,871][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:31,871][anemoi.models.layers.utils][INFO] - LayerNorm kernel: {'_target_': 'torch.nn.LayerNorm', '_partial_': True}
+[2025-03-12 10:28:36,274][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,274][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,274][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,274][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,282][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,282][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,282][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,282][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,306][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,306][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,307][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,307][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,683][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,683][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,684][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,684][anemoi.training.losses.nodeweights][INFO] - Loading node attribute area_weight from the graph
+[2025-03-12 10:28:36,689][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,689][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,690][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,689][anemoi.training.train.forecaster][INFO] - Pressure level scaling: use scaler ReluPressureLevelScaler with slope 0.0010 and minimum 0.20
+[2025-03-12 10:28:36,707][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,708][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,708][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:36,708][anemoi.training.train.train][INFO] - Resuming training from last checkpoint: /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:42,333][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/8
+[2025-03-12 10:28:42,795][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
+[2025-03-12 10:28:42,906][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
+[2025-03-12 10:28:42,908][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/8
+[2025-03-12 10:28:42,908][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
+[2025-03-12 10:28:43,442][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/8
+[2025-03-12 10:28:43,442][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+[2025-03-12 10:28:43,449][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+[2025-03-12 10:28:43,456][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 8 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-03-12 10:28:49,260][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:51,374][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:51,374][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:51,375][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:51,376][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:51,376][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:51,376][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:51,631][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:51,632][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:52,049][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:52,052][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:52,059][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:52,060][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:52,060][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:52,061][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:52,168][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:52,169][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[2025-03-12 10:28:52,285][lightning_fabric.utilities.seed][INFO] - [rank: 3] Seed set to 562000
+[2025-03-12 10:28:52,285][lightning_fabric.utilities.seed][INFO] - [rank: 1] Seed set to 562000
+[2025-03-12 10:28:52,285][lightning_fabric.utilities.seed][INFO] - [rank: 2] Seed set to 562000
+[2025-03-12 10:28:52,302][lightning_fabric.utilities.seed][INFO] - [rank: 7] Seed set to 1124000
+[2025-03-12 10:28:52,303][lightning_fabric.utilities.seed][INFO] - [rank: 5] Seed set to 1124000
+[2025-03-12 10:28:52,303][lightning_fabric.utilities.seed][INFO] - [rank: 6] Seed set to 1124000
+[2025-03-12 10:28:52,439][lightning_fabric.utilities.seed][INFO] - [rank: 0] Seed set to 562000
+[2025-03-12 10:28:52,544][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name    | Type                 | Params | Mode 
+---------------------------------------------------------
+0 | model   | AnemoiModelInterface | 246 M  | train
+1 | loss    | WeightedMSELoss      | 0      | train
+2 | metrics | ModuleList           | 0      | train
+---------------------------------------------------------
+246 M     Trainable params
+0         Non-trainable params
+246 M     Total params
+984.703   Total estimated model params size (MB)
+305       Modules in train mode
+0         Modules in eval mode
+[2025-03-12 10:28:52,605][lightning_fabric.utilities.seed][INFO] - [rank: 4] Seed set to 1124000
+[2025-03-12 10:28:53,308][pytorch_lightning.utilities.rank_zero][INFO] - Restored all states from the checkpoint at /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/last.ckpt
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,328][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,366][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:53,409][pytorch_lightning.trainer.connectors.signal_connector][INFO] - SLURM auto-requeueing enabled. Setting signal handlers.
+[2025-03-12 10:28:54,190][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,191][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,190][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,190][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,190][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,191][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,191][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,193][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,191][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,193][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,195][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,197][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,198][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,199][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,201][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,209][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,212][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,212][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,213][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,215][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,216][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,218][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,219][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,220][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,222][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,223][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,224][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,225][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,226][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,228][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,229][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,230][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,231][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,233][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,234][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,235][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,237][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,238][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,239][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,240][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,242][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,243][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,244][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,246][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,247][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,249][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,250][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,251][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,252][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,253][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,254][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,256][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,257][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,258][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,260][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,261][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,262][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,264][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,265][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,266][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,267][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,269][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,271][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,271][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,272][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,274][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,275][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,276][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,277][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,279][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,281][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,282][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,283][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,284][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,285][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,287][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,289][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,290][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,292][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,293][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,294][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,295][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,296][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,298][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,299][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,300][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,302][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,303][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,305][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,306][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,308][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,310][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,311][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,312][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,314][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,315][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,317][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,318][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,319][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,321][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,322][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,324][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,325][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,326][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,328][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,329][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,330][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,332][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,333][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,338][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,340][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,340][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,342][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,343][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,344][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,346][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,347][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,348][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,350][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,351][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,352][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,354][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,355][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,366][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,367][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,368][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,370][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,371][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,372][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,374][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,375][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,377][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,378][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,379][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,381][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,382][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,383][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,384][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,386][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,387][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,388][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,390][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,391][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,392][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,394][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,395][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,396][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,398][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,399][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,401][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,403][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,404][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,405][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,407][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,408][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,409][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,410][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,412][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,413][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,415][anemoi.training.diagnostics.callbacks.sanity][INFO] - The order of the variables in the model matches the order in the data.
+[2025-03-12 10:28:54,424][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=30` reached.
+[2025-03-12 10:28:55,870][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/inference-stage-x-by_epoch-epoch_029-step_000036.ckpt
+[2025-03-12 10:28:55,870][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-stage-x-by_epoch-epoch_029-step_000036/anemoi-metadata/ai-models.json
+[2025-03-12 10:28:55,872][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-stage-x-by_epoch-epoch_029-step_000036/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-03-12 10:28:55,875][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-stage-x-by_epoch-epoch_029-step_000036/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-03-12 10:29:00,553][anemoi.utils.checkpoints][INFO] - Adding extra information to checkpoint /work/nvme/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/logs/outputs_checkpoint/d135149c-88e7-428f-8837-a97c3d5684c9/inference-last.ckpt
+[2025-03-12 10:29:00,553][anemoi.utils.checkpoints][INFO] - Saving metadata to inference-last/anemoi-metadata/ai-models.json
+[2025-03-12 10:29:00,554][anemoi.utils.checkpoints][INFO] - Saving supporting array `latitudes` to inference-last/anemoi-metadata/latitudes.numpy (shape=(542080,), dtype=float64)
+[2025-03-12 10:29:00,557][anemoi.utils.checkpoints][INFO] - Saving supporting array `longitudes` to inference-last/anemoi-metadata/longitudes.numpy (shape=(542080,), dtype=float64)
+[2025-03-12 10:29:12,686][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1184    |    1183    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     790    |     789    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1184    |    1183    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     790    |     789    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,124][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,140][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 3                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,156][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 1                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,220][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 2                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,233][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 3                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,242][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 2                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-12 10:29:14,681][anemoi.training.train.train][INFO] - memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 1                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    512 B   |   3867 MiB |   4916 MiB |   4916 MiB |
+|       from large pool |      0 B   |   3858 MiB |   4907 MiB |   4907 MiB |
+|       from small pool |    512 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |      1 B   |   3864 MiB |   4912 MiB |   4912 MiB |
+|       from large pool |      0 B   |   3855 MiB |   4903 MiB |   4903 MiB |
+|       from small pool |      1 B   |      9 MiB |      9 MiB |      9 MiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   2048 KiB |   4934 MiB |   4934 MiB |   4932 MiB |
+|       from large pool |      0 KiB |   4922 MiB |   4922 MiB |   4922 MiB |
+|       from small pool |   2048 KiB |     12 MiB |     12 MiB |     10 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |   2047 KiB |  34285 KiB |   1785 MiB |   1783 MiB |
+|       from large pool |      0 KiB |  31307 KiB |   1762 MiB |   1762 MiB |
+|       from small pool |   2047 KiB |   4374 KiB |     23 MiB |     21 MiB |
+|---------------------------------------------------------------------------|
+| Allocations           |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       1    |    1143    |    1188    |    1187    |
+|       from large pool |       0    |     389    |     394    |     394    |
+|       from small pool |       1    |     754    |     794    |     793    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       1    |     181    |     181    |     180    |
+|       from large pool |       0    |     175    |     175    |     175    |
+|       from small pool |       1    |       6    |       6    |       5    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       2    |      11    |     145    |     143    |
+|       from large pool |       0    |       9    |     116    |     116    |
+|       from small pool |       2    |       6    |      29    |      27    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
