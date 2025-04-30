@@ -19,52 +19,30 @@
 # UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ################################################################
 
-#!/bin/bash
-
-#SBATCH --account=bduu-dtai-gh
-#SBATCH --job-name=B2-v3-2
-#SBATCH --partition=ghx4
-#SBATCH --reservation=sup-11248
-#SBATCH --mem=0
-#SBATCH --nodes=16
-#SBATCH --ntasks-per-node=4
-#SBATCH --gpus-per-node=4
-##SBATCH --cpus-per-task=4
-#SBATCH --time=48:00:00
-#SBATCH --output=./logs_sh/B2-v3-2_%j.log
-#SBATCH --error=./logs_sh/B2-v3-2_%j.err
-
-## Info here: https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/running-jobs.html
-
-## Working directory
-workdir=/work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/
-cd ${workdir}
-
-
-## Load conda environment
-source /u/jbanomedina/miniconda3/etc/profile.d/conda.sh
-conda activate /projects/bduu/jbanomedina/envs2/regional-ai
-
-nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
-nodes_array=($nodes)
-head_node=${nodes_array[0]}
-head_node_ip=$(srun --nodes=1 --ntasks=1 -w "$head_node" hostname -I | awk '{print $1}')
-echo "Head node: $head_node"
-echo "Head node IP: $head_node_ip"
-
-## Load ncll
-# export NCCL_DEBUG=INFO
-# export NCCL_SOCKET_IFNAME=hsn
-# module load nccl # loads the nccl built with the AWS nccl plugin for Slingshot11
-# module list
-echo "Job is starting on `hostname`"
-export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,garbage_collection_threshold:0.8
-
-# Check the Installed CUDA Version
-nvcc --version
-
-## Run script
-srun anemoi-training train --config-name=config-B2-resume-9x7-12x3-v3-2.yaml
-
- 
+import math
+def aggregate_tp_daily(dsv6, lead_time, time_resolution = 6):
+    ## Initial condition
+    date_init = dsv6.isel(time = 0).time.values
+    ### Since predictions were accumulated since the beginning of the simulation, de-transform into 6-hourly accumulated totals
+    # data_file_increment = get_(dsv6)
+    data_file_increment = dsv6
+    ## Generate 24-hourly accumulated totals
+    data_file_step = []
+    num_days = int(math.floor(lead_time/24))
+    for day in range(num_days): # 7-day forecast
+        # Select 6-hourly intervals
+        start_step = (day * 4) + 1
+        end_step = (day + 1) * 4 + 1
+        # print(np.arange(start_step, end_step, 1))
+        aux = data_file_increment.isel(time = np.arange(start_step, end_step, 1))
+        # Aggregate the 6-hourly forecasts into a 24-hour precipitation value
+        aux = aux.sum("time")
+        # Update date of forecast
+        date_forecast = date_init + day * np.timedelta64(24, 'h')
+        aux = aux.assign_coords({"time": date_forecast})
+        data_file_step.append(aux)
+    ## Concatenate the 7-day totals into one
+    dsv24 = xr.concat(data_file_step, dim = "time")
+    ## Return 24-hour aggregated precipitation
+    return dsv24
 

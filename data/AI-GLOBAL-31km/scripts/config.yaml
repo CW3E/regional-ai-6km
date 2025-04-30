@@ -1,6 +1,0 @@
-checkpoint: inference-last.ckpt
-date: 1979-01-01T00:00:00
-lead_time: 12 
-input: validation
-output: 
-  netcdf: ../outputs/temp.nc

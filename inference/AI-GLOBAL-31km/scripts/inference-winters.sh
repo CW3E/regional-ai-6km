@@ -22,49 +22,74 @@
 #!/bin/bash
 
 #SBATCH --account=bduu-dtai-gh
-#SBATCH --job-name=B2-v3-2
+#SBATCH --job-name=pred-31km
 #SBATCH --partition=ghx4
-#SBATCH --reservation=sup-11248
 #SBATCH --mem=0
-#SBATCH --nodes=16
-#SBATCH --ntasks-per-node=4
-#SBATCH --gpus-per-node=4
-##SBATCH --cpus-per-task=4
-#SBATCH --time=48:00:00
-#SBATCH --output=./logs_sh/B2-v3-2_%j.log
-#SBATCH --error=./logs_sh/B2-v3-2_%j.err
-
-## Info here: https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/running-jobs.html
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gpus-per-node=1
+##SBATCH --cpus-per-task=8
+#SBATCH --time=12:00:00
+#SBATCH --output=../logs/pred-31km_%j.log
+#SBATCH --error=../logs/pred-31km_%j.err
 
 ## Working directory
-workdir=/work/hdd/bduu/jbanomedina/regional-ai/training/STRETCHED-6km/
+workdir=/work/nvme/bduu/jbanomedina/regional-ai/data/GLOBAL-31km/scripts/
 cd ${workdir}
-
 
 ## Load conda environment
 source /u/jbanomedina/miniconda3/etc/profile.d/conda.sh
 conda activate /projects/bduu/jbanomedina/envs2/regional-ai
 
-nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
-nodes_array=($nodes)
-head_node=${nodes_array[0]}
-head_node_ip=$(srun --nodes=1 --ntasks=1 -w "$head_node" hostname -I | awk '{print $1}')
-echo "Head node: $head_node"
-echo "Head node IP: $head_node_ip"
+## Parameters
+lead_time=174 # 10-hour forecast
+epoch=78
+vars=2t,z_1000,sp,msl,tp,10u,10v,ivt,iwv
+# vars=$(paste -sd, < list-vars.txt)
+input=test
+stage=A2
 
-## Load ncll
-# export NCCL_DEBUG=INFO
-# export NCCL_SOCKET_IFNAME=hsn
-# module load nccl # loads the nccl built with the AWS nccl plugin for Slingshot11
-# module list
-echo "Job is starting on `hostname`"
-export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,garbage_collection_threshold:0.8
+## Generate list of dates based on the above parameters
+init_interval=24
+# Last date not included as per Python way to generate lists
+python generate-dates-txt.py 2020-11-01T00 2021-04-01T00 $init_interval list-dates-2021.txt # Winter 20-21
+python generate-dates-txt.py 2021-11-01T00 2022-04-01T00 $init_interval list-dates-2022.txt # Winter 21-22
+python generate-dates-txt.py 2022-11-01T00 2023-04-01T00 $init_interval list-dates-2023.txt # Winter 22-23
+python merge_list_dates_txt.py list-dates-2021.txt list-dates-2022.txt list-dates-2023.txt  # Concatenate winters
+rm list-dates-2021.txt list-dates-2022.txt list-dates-2023.txt
+dates=$(<list-dates.txt)
 
-# Check the Installed CUDA Version
-nvcc --version
+## Create directory in case it does not exist
+mkdir -p ../outputs/epoch-$epoch/
+mkdir -p ../outputs/epoch-$epoch/31km/
 
-## Run script
-srun anemoi-training train --config-name=config-B2-resume-9x7-12x3-v3-2.yaml
+## Loop over the initial conditions 
+for date in $dates; do
+    
+    ## Information about forecast
+    echo "Running GLOBAL model (31km) at EPOCH $epoch to generate a $lead_time-hour forecast with initial condition: $date ($input set)"
 
- 
+    ## Run script anemoi inference
+    anemoi-inference run config.yaml \
+     date=$date \
+     input=$input \
+     checkpoint=../../../models/GLOBAL-31km/epoch-$epoch/inference/$stage-epoch$epoch.ckpt \
+     lead_time=$lead_time
+     output.netcdf=../outputs/temp-$epoch.nc
+
+    ## Post-process (e.g., subset variables of interest, compute ivt and interpolate to 4km-prism). 
+    python postprocess-anemoi-output.py \
+     ../outputs/epoch-$epoch/ \
+     $date \
+     $lead_time \
+     $vars \
+     ../outputs/temp-$epoch.nc
+
+    ## Delete temporary file
+    rm ../outputs/temp-$epoch.nc
+
+done
+
+## Remove list of dates
+# rm list-dates.txt
 

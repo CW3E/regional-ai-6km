@@ -1,3 +1,24 @@
+################ LICENSE ######################################
+# This software is Copyright © 2025 The Regents of the University of California.
+# All Rights Reserved. Permission to copy, modify, and distribute this software and its documentation
+# for educational, research and non-profit purposes, without fee, and without a written agreement is
+# hereby granted, provided that the above copyright notice, this paragraph and the following three paragraphs
+# appear in all copies. Permission to make commercial use of this software may be obtained by contacting:
+#
+# Office of Innovation and Commercialization 9500 Gilman Drive, Mail Code 0910 University of California La Jolla, CA 92093-0910 innovation@ucsd.edu
+# This software program and documentation are copyrighted by The Regents of the University of California. The software program and documentation are
+# supplied “as is”, without any accompanying services from The Regents. The Regents does not warrant that the operation of the program will
+# be uninterrupted or error-free. The end-user understands that the program was developed for research purposes and is advised not to rely exclusively on the program for any reason.
+#
+# IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL,
+# INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE
+# AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+# DAMAGE. THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+# THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER
+# IS ON AN “AS IS” BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+# UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+################################################################
+
 #!/bin/bash
 
 #SBATCH --account=bduu-dtai-gh
@@ -13,7 +34,6 @@
 #SBATCH --output=./logs_sh/A2-7123_%j.log
 #SBATCH --error=./logs_sh/A2-7123_%j.err
 
-## Info here: https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/running-jobs.html
 
 ## Working directory
 workdir=/work/hdd/bduu/jbanomedina/regional-ai/training/GLOBAL-31km/
@@ -45,15 +65,3 @@ nvcc --version
 srun anemoi-training train --config-name=config-2A-resume-7-12x3.yaml
 
  
-## Estimate number of iterations to update the scheduler in rollout 1-12 (stage A2)
-# import pandas as pd
-# # Define the start and end dates
-# start_date = "2012-09-01"
-# end_date = "2020-04-01"
-# # Create a date range with hourly frequency, but we only want values at 0, 6, 12, and 18 UTC
-# date_range = pd.date_range(start=start_date, end=end_date, freq='6H')
-# # Count the number of samples
-# num_samples = len(date_range)
-# print(num_samples)
-# num_iterations = num_samples/16
-# print(num_iterations)
